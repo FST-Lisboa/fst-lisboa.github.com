@@ -1,1 +1,1 @@
-# fst-lisboa.github.com
+# fst-lisboa.github.io
