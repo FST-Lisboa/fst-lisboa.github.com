@@ -26,3 +26,14 @@ var header = `
     <div class="social-links"><ul> ` + socialLinks + `</ul></div>
   </header>
 `;
+
+var homeLeft = `
+  <div id="homePanel">
+    <h1>` + locales[lang].home.title + `</h1>
+    <p>` + locales[lang].home.text + `</p>
+  </div>
+`;
+
+var homeRight = `
+  <div class="team-photo"></div>
+`;

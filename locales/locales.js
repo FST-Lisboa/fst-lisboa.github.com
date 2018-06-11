@@ -11,6 +11,10 @@ var locales = {
         "alt-language": "Português",
       },
     },
+    "home": {
+      "title": "FST Lisboa",
+      "text": "",
+    }
   },
   "pt": {
     "header": {
@@ -23,7 +27,11 @@ var locales = {
         "contacts": "Contactos",
         "alt-language": "English",
       },
-    },  
+    },
+    "home": {
+      "title": "FST Lisboa",
+      "text": "",
+    }
   },
   "global": {
     "social icon": {

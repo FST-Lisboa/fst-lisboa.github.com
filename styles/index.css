@@ -65,4 +65,26 @@ header .social-links ul li i:hover.fa-youtube {
   color: #ff0000;
 }
 
+.panels {
+  padding: 0 !important;
+  background-color: #fafafa;
+}
+.panels .panel {
+  height: calc(100vh - 70px);
+  float: left;
+}
+.panels .panel#left-panel #homePanel h1 {
+  text-align: center;
+  margin: 100px 0px;
+}
+.panels .panel#middle-panel {
+  padding: 0;
+}
+.panels .panel#middle-panel .team-photo {
+  height: calc(100vh - 70px);
+  background-image: url(../images/photos/team-photo.jpg);
+  background-size: cover;
+  background-position-x: -50px;
+}
+
 /*# sourceMappingURL=styles/index.css.map */
