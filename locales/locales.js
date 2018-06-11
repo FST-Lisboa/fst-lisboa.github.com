@@ -14,6 +14,10 @@ var locales = {
     "home": {
       "title": "FST Lisboa",
       "text": "",
+    },
+    "formulaStudent": {
+      "title": "Formula Student",
+      "text": "",
     }
   },
   "pt": {
@@ -30,6 +34,10 @@ var locales = {
     },
     "home": {
       "title": "FST Lisboa",
+      "text": "",
+    },
+    "formulaStudent": {
+      "title": "Formula Student",
       "text": "",
     }
   },
