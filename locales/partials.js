@@ -11,7 +11,9 @@ for (var item in locales[lang].header.nav) {
 var socialLinks = "";
 
 for (var item in locales["global"]["social icon"]) {
-  socialLinks += "<li><i class=\"fab fa-" + locales["global"]["social icon"][item] + "\"></i></li>";
+  socialLinks += "<li>" +
+    "<i onclick=\"openSocial('" + item + "')\" class=\"fab fa-" + locales["global"]["social icon"][item].name + "\"></i>" +
+    "</li>";
 }
 
 var header = `
