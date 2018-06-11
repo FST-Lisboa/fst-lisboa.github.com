@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Noto", sans-serif;
+}
+
+header {
+  height: 70px;
+  font-size: 14px;
+  color: rgba(17, 17, 17, 0.6);
+}
+header .home {
+  float: left;
+  padding: 8px 0px 8px 25px;
+  width: 15%;
+}
+header .home img {
+  cursor: pointer;
+}
+header nav {
+  float: left;
+  width: 70%;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 27px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+header nav ul li:hover {
+  color: #111111;
+}
+header nav ul li.active {
+  color: #e62117;
+}
+header .social-links {
+  float: right;
+  width: 15%;
+}
+header .social-links ul {
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+header .social-links ul li {
+  display: inline-block;
+  margin: 25px 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+header .social-links ul li i:hover.fa-twitter {
+  color: #55acee;
+}
+header .social-links ul li i:hover.fa-facebook {
+  color: #3b5998;
+}
+header .social-links ul li i:hover.fa-instagram {
+  color: #e95950;
+}
+header .social-links ul li i:hover.fa-youtube {
+  color: #ff0000;
+}
+
+/*# sourceMappingURL=styles/index.css.map */
