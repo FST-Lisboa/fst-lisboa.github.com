@@ -70,3 +70,34 @@ header {
     }
   }
 }
+
+.panels {
+  padding: 0 !important;
+  background-color: rgb(250, 250, 250);
+
+  .panel {
+    height: calc(100vh - 70px);
+    float: left;
+
+    &#left-panel {
+      #homePanel {
+        h1 {
+          text-align: center;
+          margin: 100px 0px;
+        }
+
+      }
+    }
+
+    &#middle-panel {
+      padding: 0;
+
+      .team-photo {
+        height: calc(100vh - 70px);
+        background-image: url(../images/photos/team-photo.jpg);
+        background-size: cover;
+        background-position-x: -50px;
+      }
+    }
+  }
+}

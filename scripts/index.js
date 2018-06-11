@@ -36,12 +36,12 @@ function loadPanels() {
 
   panelName += page.split('-')[0] ? page.split('-')[0] : 'home';
   panelName += page.split('-')[1] ? page.split('-')[1].charAt(0).toUpperCase() + page.split('-')[1].slice(1) : '';
-  panelNameBackground = panelName + 'Background';
 
-  console.log(window[panelName]);
+  leftPanel = panelName + 'Left';
+  rightPanel = panelName + 'Right';
 
-  document.getElementById('left-panel').innerHTML = window[panelName];
-  document.getElementById('middle-panel').innerHTML = window[panelNameBackground];
+  document.getElementById('left-panel').innerHTML = window[leftPanel];
+  document.getElementById('middle-panel').innerHTML = window[rightPanel];
 };
 
 (function() {
