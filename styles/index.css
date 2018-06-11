@@ -83,9 +83,15 @@ header .social-links ul li i:hover.fa-youtube {
 }
 .panels .panel#middle-panel .team-photo {
   height: calc(100vh - 70px);
-  background-image: url(../images/photos/team-photo.jpg);
+  background-image: url(../images/photos/team.jpg);
   background-size: cover;
   background-position-x: -50px;
+}
+.panels .panel#middle-panel .formula-student-photo {
+  height: calc(100vh - 70px);
+  background-image: url(../images/photos/formula-student.png);
+  background-size: cover;
+  background-position-x: -20px;
 }
 
 /*# sourceMappingURL=styles/index.css.map */

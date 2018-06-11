@@ -39,3 +39,14 @@ var homeLeft = `
 var homeRight = `
   <div class="team-photo"></div>
 `;
+
+var formulaStudentLeft = `
+  <div id="homePanel">
+    <h1>` + locales[lang].formulaStudent.title + `</h1>
+    <p>` + locales[lang].formulaStudent.text + `</p>
+  </div>
+`;
+
+var formulaStudentRight = `
+  <div class="formula-student-photo"></div>
+`;
