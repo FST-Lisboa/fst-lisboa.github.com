@@ -99,6 +99,84 @@ header {
         background-size: cover;
         background-position-x: -50px;
       }
+
+      .sponsors-list {
+        text-align: center;
+        height: calc(100vh - 70px);
+        overflow: auto;
+
+        h2 {
+          font-size: 30px;
+          margin-top: 40px;
+        }
+
+        .sponsors {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+          align-items: stretch;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+
+          .sponsor{
+            img {
+              max-width: 100%;
+
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+
+          &.platinum-sponsor {
+            .sponsor {
+              margin: 0 30px;
+              width: 35%;
+            }
+          }
+
+          &.gold-sponsor {
+            .sponsor {
+              margin: 0 50px;
+              width: 17%;
+            }
+          }
+
+          &.silver-sponsor {
+            .sponsor {
+              margin: 0 30px;
+              width: 15%;
+            }
+          }
+
+          &.bronze-sponsor {
+            .sponsor {
+              margin: 0 10px;
+              width: 12%;
+            }
+          }
+
+          &.partners-sponsor {
+            .sponsor {
+              margin: 0 10px;
+              width: 10%;
+            }
+          }
+
+          &.institutional-partners-sponsor {
+            .sponsor {
+              margin: 0 15px;
+              width: 10%;
+            }
+          }
+
+        }
+      }
     }
   }
 }

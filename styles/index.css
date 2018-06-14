@@ -87,5 +87,57 @@ header .social-links ul li i:hover.fa-youtube {
   background-size: cover;
   background-position-x: -50px;
 }
+.panels .panel#middle-panel .sponsors-list {
+  text-align: center;
+  height: calc(100vh - 70px);
+  overflow: auto;
+}
+.panels .panel#middle-panel .sponsors-list h2 {
+  font-size: 30px;
+  margin-top: 40px;
+}
+.panels .panel#middle-panel .sponsors-list .sponsors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.panels .panel#middle-panel .sponsors-list .sponsors .sponsor img {
+  max-width: 100%;
+}
+.panels .panel#middle-panel .sponsors-list .sponsors .sponsor img:hover {
+  cursor: pointer;
+}
+.panels .panel#middle-panel .sponsors-list .sponsors.platinum-sponsor .sponsor {
+  margin: 0 30px;
+  width: 35%;
+}
+.panels .panel#middle-panel .sponsors-list .sponsors.gold-sponsor .sponsor {
+  margin: 0 50px;
+  width: 17%;
+}
+.panels .panel#middle-panel .sponsors-list .sponsors.silver-sponsor .sponsor {
+  margin: 0 30px;
+  width: 15%;
+}
+.panels .panel#middle-panel .sponsors-list .sponsors.bronze-sponsor .sponsor {
+  margin: 0 10px;
+  width: 12%;
+}
+.panels .panel#middle-panel .sponsors-list .sponsors.partners-sponsor .sponsor {
+  margin: 0 10px;
+  width: 10%;
+}
+.panels .panel#middle-panel .sponsors-list .sponsors.institutional-partners-sponsor .sponsor {
+  margin: 0 15px;
+  width: 10%;
+}
 
 /*# sourceMappingURL=styles/index.css.map */

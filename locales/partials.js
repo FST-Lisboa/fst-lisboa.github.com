@@ -39,3 +39,37 @@ var homeLeft = `
 var homeRight = `
   <div class="team-photo"></div>
 `;
+
+var sponsorsLeft = `
+  <div id="homePanel">
+    <h1>` + locales[lang].sponsors.title + `</h1>
+    <p>` + locales[lang].sponsors.text + `</p>
+  </div>
+`;
+
+var sponsorsList = '';
+
+for (var level in locales[lang].sponsors["levels"]) {
+  var level = locales[lang].sponsors["levels"][level];
+
+  sponsorsList += "<h2 class=\"col-sm-12 col-md-12\">" +
+    level.title +
+    "</h2>";
+
+  sponsorsList += "<div class=\"col-sm-12 col-md-12 " +
+    level.class + "-sponsor" +
+    " sponsors\">";
+
+  for (var sponsor in level.sponsors) {
+    var sponsor = level.sponsors[sponsor];
+    sponsorsList += "<div class=\"sponsor\" onclick=\"openLink('" + sponsor.url + "')\">" +
+        "<img src=\"./images/sponsors/" + level.class + '/' + sponsor.image + "\" alt=\"" + sponsor.title + "\" title=\"" + sponsor.title + "\">" +
+      "</div>"
+  }
+
+  sponsorsList += "</div>";
+};
+
+var sponsorsRight = `
+  <div class="sponsors-list">` + sponsorsList + `</div>
+`;
