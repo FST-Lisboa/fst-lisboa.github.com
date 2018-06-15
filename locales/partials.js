@@ -73,3 +73,23 @@ for (var level in locales[lang].sponsors["levels"]) {
 var sponsorsRight = `
   <div class="sponsors-list">` + sponsorsList + `</div>
 `;
+
+
+var contactsLeft = `
+ <div id="homePanel">
+   <h1>` + locales[lang].contacts.title + `</h1>
+   <p>` + locales[lang].contacts.text + `</p>
+ </div>
+`;
+
+var contactsRight = `
+ <div class="contact-map">
+   <iframe
+     width="100%"
+     height="100%"
+     frameborder="0" style="border:0"
+     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDhkvOrzcYrGFaQ3CBTbqyO3VFqC2wLOLA
+       &q=FST+Lisboa">
+   </iframe>
+ </div>
+`; 
