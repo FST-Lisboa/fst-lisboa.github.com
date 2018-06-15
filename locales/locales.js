@@ -351,7 +351,11 @@ var locales = {
           ]
         },
       ],
-    }
+    },
+    "contacts": {
+      "title": "Contacts",
+      "text": "",
+    },
   },
   "pt": {
     "header": {
@@ -368,7 +372,11 @@ var locales = {
     "home": {
       "title": "FST Lisboa",
       "text": "",
-    }
+    },
+    "contacts": {
+      "title": "Contacts",
+      "text": "",
+    },
   },
   "global": {
     "social icon": {
