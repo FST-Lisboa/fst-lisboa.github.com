@@ -3,7 +3,7 @@ var locales = {
     "header": {
       "logo": { "text": "Home" },
       "nav": {
-        "formula-student": "Formula Student",
+        "about": "About",
         "team": "Team",
         "cars": "Cars",
         "sponsors": "Sponsors",
@@ -13,6 +13,10 @@ var locales = {
     },
     "home": {
       "title": "FST Lisboa",
+      "text": "",
+    },
+    "about": {
+      "title": "Formula Student",
       "text": "",
     },
     "sponsors": {
@@ -373,6 +377,10 @@ var locales = {
       "title": "FST Lisboa",
       "text": "",
     },
+    "about": {
+      "title": "Formula Student",
+      "text": "",
+    }, 
     "contacts": {
       "title": "Contacts",
       "text": "",

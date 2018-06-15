@@ -40,6 +40,17 @@ var homeRight = `
   <div class="team-photo"></div>
 `;
 
+var aboutLeft = `
+  <div id="homePanel">
+    <h1>` + locales[lang].about.title + `</h1>
+    <p>` + locales[lang].about.text + `</p>
+  </div>
+`;
+
+var aboutRight = `
+  <div class="formula-student-photo"></div>
+`;
+
 var sponsorsLeft = `
   <div id="homePanel">
     <h1>` + locales[lang].sponsors.title + `</h1>
@@ -92,4 +103,4 @@ var contactsRight = `
        &q=FST+Lisboa">
    </iframe>
  </div>
-`; 
+`;
