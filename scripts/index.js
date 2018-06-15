@@ -44,8 +44,8 @@ function loadPanels() {
   document.getElementById('middle-panel').innerHTML = window[rightPanel];
 };
 
-function openSocial(link) {
-  window.open(locales["global"]["social icon"][link].url, '_blank');
+function openLink(link) {
+  window.open(link, '_blank');
 };
 
 (function() {

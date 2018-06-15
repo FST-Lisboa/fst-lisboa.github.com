@@ -380,7 +380,7 @@ var locales = {
     "about": {
       "title": "Formula Student",
       "text": "",
-    }, 
+    },
     "contacts": {
       "title": "Contacts",
       "text": "",
@@ -389,20 +389,20 @@ var locales = {
   "global": {
     "social icon": {
       "twitter": {
-        name: "twitter",
-        url: "https://twitter.com/FST_Lisboa",
+        "name": "twitter",
+        "url": "https://twitter.com/FST_Lisboa",
       },
       "facebook": {
-        name: "facebook",
-        url: "https://www.facebook.com/fstlisboa/",
+        "name": "facebook",
+        "url": "https://www.facebook.com/fstlisboa/",
       },
       "instagram": {
-        name: "instagram",
-        url: "https://www.instagram.com/fst_lisboa/",
+        "name": "instagram",
+        "url": "https://www.instagram.com/fst_lisboa/",
       },
       "youtube": {
-        name: "youtube",
-        url: "https://www.youtube.com/user/ProjectoFST",
+        "name": "youtube",
+        "url": "https://www.youtube.com/user/ProjectoFST",
       },
     }
   }
