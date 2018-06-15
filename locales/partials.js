@@ -11,8 +11,10 @@ for (var item in locales[lang].header.nav) {
 var socialLinks = "";
 
 for (var item in locales["global"]["social icon"]) {
+  var item = locales["global"]["social icon"][item];
+
   socialLinks += "<li>" +
-    "<i onclick=\"openSocial('" + item + "')\" class=\"fab fa-" + locales["global"]["social icon"][item].name + "\"></i>" +
+    "<i onclick=\"openLink('" + item.url + "')\" class=\"fab fa-" + item.name + "\"></i>" +
     "</li>";
 }
 
@@ -84,7 +86,6 @@ for (var level in locales[lang].sponsors["levels"]) {
 var sponsorsRight = `
   <div class="sponsors-list">` + sponsorsList + `</div>
 `;
-
 
 var contactsLeft = `
  <div id="homePanel">
