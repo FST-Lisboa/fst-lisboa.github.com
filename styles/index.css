@@ -118,6 +118,13 @@ header #menu .social-links ul li {
   height: calc(100vh - 71px);
   float: left;
 }
+.panels .panel .page-panel {
+  display: none;
+  width: 100%;
+}
+.panels .panel .page-panel.open {
+  display: block;
+}
 .panels .panel#left-panel #homePanel h1 {
   text-align: center;
   margin: 100px 0px;
