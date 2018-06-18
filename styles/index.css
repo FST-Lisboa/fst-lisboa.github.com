@@ -12,14 +12,14 @@ header {
 header .home {
   float: left;
   padding: 8px 0px 8px 25px;
-  width: 15%;
+  width: 20%;
 }
 header .home img {
   cursor: pointer;
 }
 header nav {
   float: left;
-  width: 70%;
+  width: 60%;
 }
 header nav ul {
   margin: 0;
@@ -38,9 +38,17 @@ header nav ul li:hover {
 header nav ul li.active {
   color: #e62117;
 }
+header nav ul li.change-language {
+  margin: 0px 15px;
+}
+header nav ul li.change-language img {
+  position: absolute;
+  height: 22px;
+  top: 22px;
+}
 header .social-links {
   float: right;
-  width: 15%;
+  width: 20%;
 }
 header .social-links ul {
   float: right;
@@ -65,27 +73,100 @@ header .social-links ul li i:hover.fa-instagram {
 header .social-links ul li i:hover.fa-youtube {
   color: #ff0000;
 }
+header #menu {
+  display: none;
+  height: 0px;
+}
+header #menu.open {
+  display: block;
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  margin-top: 70px;
+  z-index: 2;
+  background-color: white;
+}
+header #menu nav {
+  width: 100%;
+}
+header #menu nav li {
+  display: block;
+}
+header #menu nav li.change-language {
+  margin: 0px 15px 15px;
+}
+header #menu nav li.change-language img {
+  position: initial;
+}
+header #menu .social-links {
+  width: 100%;
+}
+header #menu .social-links ul {
+  float: none;
+  text-align: center;
+  padding: 0;
+}
+header #menu .social-links ul li {
+  margin: 25px 1 5px;
+}
 
 .panels {
   padding: 0 !important;
   background-color: #fafafa;
 }
 .panels .panel {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 71px);
   float: left;
 }
 .panels .panel#left-panel #homePanel h1 {
   text-align: center;
   margin: 100px 0px;
 }
+.panels .panel#top-panel .home {
+  background-position-x: -2000px;
+}
+.panels .panel#top-panel .home p {
+  padding: 100px;
+}
+.panels .panel#middle-panel .home p {
+  width: 60%;
+  padding: 100px;
+}
+.panels .panel#middle-panel .home, .panels .panel#top-panel .home {
+  height: calc(100vh - 71px);
+  background-image: url(../images/photos/home.png);
+  background-size: cover;
+  color: white;
+}
+.panels .panel#middle-panel .home p, .panels .panel#top-panel .home p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.panels .panel#middle-panel .home .main-sponsors, .panels .panel#top-panel .home .main-sponsors {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.panels .panel#middle-panel .home .main-sponsors .left-sponsor, .panels .panel#middle-panel .home .main-sponsors .right-sponsor, .panels .panel#top-panel .home .main-sponsors .left-sponsor, .panels .panel#top-panel .home .main-sponsors .right-sponsor {
+  float: left;
+  width: 50%;
+}
+.panels .panel#middle-panel .home .main-sponsors .left-sponsor img, .panels .panel#middle-panel .home .main-sponsors .right-sponsor img, .panels .panel#top-panel .home .main-sponsors .left-sponsor img, .panels .panel#top-panel .home .main-sponsors .right-sponsor img {
+  width: 100px;
+  cursor: pointer;
+}
+.panels .panel#middle-panel .home .main-sponsors .left-sponsor img, .panels .panel#top-panel .home .main-sponsors .left-sponsor img {
+  float: right;
+  margin-right: 50px;
+}
+.panels .panel#middle-panel .home .main-sponsors .right-sponsor img, .panels .panel#top-panel .home .main-sponsors .right-sponsor img {
+  float: left;
+  margin-left: 50px;
+}
 .panels .panel#middle-panel {
   padding: 0;
-}
-.panels .panel#middle-panel .team-photo {
-  height: calc(100vh - 70px);
-  background-image: url(../images/photos/team.jpg);
-  background-size: cover;
-  background-position-x: -50px;
 }
 .panels .panel#middle-panel .formula-student-photo {
   height: calc(100vh - 70px);
