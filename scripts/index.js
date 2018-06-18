@@ -1,47 +1,104 @@
 var page;
+var lang;
+var device;
+
+function init() {
+  loadHeader();
+  loadPages();
+};
+
+function changePage(link) {
+  if (page == link) { return; };
+
+  if (device == 'mobiel') { toggleMobileMenu() };
+
+  setPage(link);
+  updateHeader();
+  updatePage();
+};
+
+function getLanguage() {
+  var browserLang = window.navigator.language.includes('pt') ? 'pt' : 'en';
+
+  lang = localStorage.getItem('lang') ? localStorage.getItem('lang') : browserLang;
+};
+
+function changeLanguage(newLang) {
+  setLanguage(newLang);
+
+  var newLink = pageTranslation();
+
+  setPage(newLink);
+  init();
+};
+
+function setLanguage(newLang) {
+  lang = newLang;
+  localStorage.setItem('lang', lang);
+};
+
+function pageTranslation() {
+  return locales.global.pages[lang][page];
+};
+
+function setDevice() {
+  device = window.innerWidth >= 992 ? 'desktop' : 'mobile';
+};
+
+function updateDevice() {
+  if ((window.innerWidth >= 992 && device == 'mobile') || (window.innerWidth < 992 && device == 'desktop')) {
+    setDevice();
+    init();
+  };
+};
 
 function getPage() {
   page = window.location.href.split('#')[1];
 };
 
-function loadPage() {
-  loadHeader();
-  loadPanels();
+function setPage(link) {
+  page = link ? link : locales[lang].header.logo.link;
+
+  window.location.href = window.location.href.split('#')[0] + '#' + page;
 };
 
 function loadHeader() {
-  document.getElementById('header').innerHTML = header;
-
-  activateLink();
+  document.getElementById('header').innerHTML = header();
 };
 
-function activateLink() {
-  Array.from(document.getElementsByClassName('link')).forEach(function(item) {
-    item.classList.remove('active');
-  });
-
-  if(page) { document.getElementById(page).classList.add('active'); }
+function updateHeader() {
+  document.getElementsByClassName('active')[0].classList.remove('active');
+  document.getElementById(page + 'Link').classList.add('active');
 };
 
-function changePage(link) {
-  window.location.href = window.location.href.split('#')[0] + "#" + link;
-  page = link;
-
-  loadPage();
+function isLinkActive(link) {
+  return link == page ? true : false;
 };
 
-function loadPanels() {
+function loadPages() {
+  document.getElementById('panels').innerHTML = panels();
 
-  var panelName = '';
+  updatePage();
+};
 
-  panelName += page.split('-')[0] ? page.split('-')[0] : 'home';
-  panelName += page.split('-')[1] ? page.split('-')[1].charAt(0).toUpperCase() + page.split('-')[1].slice(1) : '';
+function updatePage() {
+  var panel = lang == 'pt' ? locales.global.pages.en[page] : page;
 
-  leftPanel = panelName + 'Left';
-  rightPanel = panelName + 'Right';
+  var panels = document.querySelectorAll('[id^="' + panel +'"]');
 
-  document.getElementById('left-panel').innerHTML = window[leftPanel];
-  document.getElementById('middle-panel').innerHTML = window[rightPanel];
+  for(var i in Array.from(panels)) {
+    var p = panels[i];
+
+    if(p.children.length == 0) {
+      console.log('loading');
+      document.getElementById(p.id).innerHTML = window[p.id]();
+    }
+  };
+};
+
+function toggleMobileMenu() {
+  document.getElementsByClassName('hamburger')[0].classList.toggle("is-active");
+  document.getElementById('menu').classList.toggle("open");
 };
 
 function openLink(link) {
@@ -49,6 +106,10 @@ function openLink(link) {
 };
 
 (function() {
+  getLanguage();
+  setDevice();
   getPage();
-  loadPage();
+  setPage(page);
+
+  init();
 })();

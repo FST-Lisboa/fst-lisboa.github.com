@@ -1,19 +1,37 @@
 var locales = {
   "en": {
     "header": {
-      "logo": { "text": "Home" },
+      "logo": {
+        "text": "Home",
+        "link": "home",
+        "img": 'FST-Lisboa.png',
+      },
       "nav": {
         "about": "About",
         "team": "Team",
         "cars": "Cars",
         "sponsors": "Sponsors",
         "contacts": "Contacts",
-        "alt-language": "Português",
       },
     },
     "home": {
       "title": "FST Lisboa",
-      "text": "",
+      "text": ``,
+      "sponsors": {
+        "title": "Main Sponsors",
+        "sponsors": {
+          "novabase": {
+            "title": "NovaBase",
+            "image": "novabase.png",
+            "url": "http://www.novabase.pt/en",
+          },
+          "tecnico": {
+            "title": "Técnico Lisboa",
+            "image": "tecnico.png",
+            "url": "https://tecnico.ulisboa.pt/en/",
+          },
+        },
+      },
     },
     "about": {
       "title": "Formula Student",
@@ -363,25 +381,47 @@ var locales = {
   },
   "pt": {
     "header": {
-      "logo": { "text": "Pagina Principal" },
+      "logo": {
+        "text": "Pagina Principal",
+        "link": "inicio",
+        "img": 'FST-Lisboa.png',
+      },
       "nav": {
-        "formula-student": "Formula Student",
-        "team": "Equipa",
-        "cars": "Carros",
-        "sponsor": "Patrocionadores",
-        "contacts": "Contactos",
-        "alt-language": "English",
+        "sobre": "Sobre",
+        "equipa": "Equipa",
+        "carros": "Carros",
+        "patrocionadores": "Patrocionadores",
+        "contactos": "Contactos",
       },
     },
     "home": {
       "title": "FST Lisboa",
-      "text": "",
+      "text": `Nós somos a FST Lisboa, um grupo de estudantes do Instituto Superior Técnico,
+        da Universidade de Lisboa, que projeta e constrói um carro tipo fórmula elétrico.
+        Representamos Portugal num circuito de uma das mais prestigiadas competições de
+        engenharia internacionais, a Formula Student. Explore o nosso website e saiba mais sobre o
+        nosso projeto!`,
+      "sponsors": {
+        "title": "Patrocionadores Principais",
+        "sponsors": {
+          "novabase": {
+            "title": "NovaBase",
+            "image": "novabase.png",
+            "url": "http://www.novabase.pt/pt",
+          },
+          "tecnico": {
+            "title": "Técnico Lisboa",
+            "image": "tecnico.png",
+            "url": "https://tecnico.ulisboa.pt/pt/",
+          },
+        },
+      },
     },
-    "about": {
+    "sobre": {
       "title": "Formula Student",
       "text": "",
     },
-    "contacts": {
+    "contactos": {
       "title": "Contacts",
       "text": "",
     },
@@ -403,6 +443,24 @@ var locales = {
       "youtube": {
         "name": "youtube",
         "url": "https://www.youtube.com/user/ProjectoFST",
+      },
+    },
+    "pages": {
+      "en": {
+        "inicio": "home",
+        "sobre": "about",
+        "equipa": "team",
+        "carros": "cars",
+        "patrocionadores": "sponsors",
+        "contactos": "contacts",
+      },
+      "pt": {
+        "home": "inicio",
+        "about": "sobre",
+        "team": "equipa",
+        "cars": "carros",
+        "sponsors": "patrocionadores",
+        "contacts": "contactos",
       },
     }
   }

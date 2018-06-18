@@ -11,18 +11,16 @@
     <script src="./locales/partials.js"></script>
 
     <!-- Vendor Libraries -->
-    <link rel="stylesheet" href="./styles/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./dist/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/hamburgers.css">
 
     <script type="text/javascript" src="./scripts/fa-brands.js"></script>
 
   </head>
-  <body>
+  <body onresize="updateDevice()">
     <div id="header"></div>
-    <div class="panels col-sm-12 col-md-12">
-      <div class="panel col-sm-4 col-md-4" id="left-panel"></div>
-      <div class="panel col-sm-8 col-md-8" id="middle-panel"></div>
-    </div>
+    <div id="panels" class="panels col-xs-12"></div>
   </body>
 
   <script src="./scripts/index.js"></script>
