@@ -135,6 +135,15 @@ header {
     height: calc(100vh - 71px);
     float: left;
 
+    .page-panel {
+      display: none;
+      width: 100%;
+      
+      &.open {
+        display: block;
+      }
+    }
+
     &#left-panel {
       #homePanel {
         h1 {

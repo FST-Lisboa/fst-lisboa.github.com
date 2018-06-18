@@ -84,15 +84,26 @@ function loadPages() {
 function updatePage() {
   var panel = lang == 'pt' ? locales.global.pages.en[page] : page;
 
-  var panels = document.querySelectorAll('[id^="' + panel +'"]');
+  var panels = document.querySelectorAll('[id^="' + panel +'Panel"]');
 
-  for(var i in Array.from(panels)) {
+  var openPanels = Array.from(document.getElementsByClassName('open'));
+  for(var i = 0; i < openPanels.length; i++) {
+    var p = openPanels[i];
+
+    p.classList.remove('open');
+    p.parentElement.classList.remove('col-md-4','col-md-8','col-md-12');
+  }
+
+  var panelsLength = Array.from(panels).length;
+  for(var i = 0; i < panelsLength; i++) {
     var p = panels[i];
 
-    if(p.children.length == 0) {
-      console.log('loading');
-      document.getElementById(p.id).innerHTML = window[p.id]();
-    }
+    if(p.children.length == 0) {  document.getElementById(p.id).innerHTML = window[p.id](); }
+
+    var className = device == 'desktop' ? 'col-md-' + desktopPanelSizes[p.id] : 'col-xs-12';
+    p.parentElement.classList.add(className);
+
+    p.classList.add('open');
   };
 };
 
