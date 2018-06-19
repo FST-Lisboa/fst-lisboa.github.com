@@ -63,7 +63,7 @@ function header() {
   return header;
 };
 
-function homeMiddle() {
+function homePanelMiddle() {
   var sponsors = locales[lang].home.sponsors;
   var homeRight = `
     <div class="home col-xs-12">
@@ -90,11 +90,11 @@ function homeMiddle() {
   return homeRight;
 };
 
-function homeTop() {
+function homePanelTop() {
   return homeMiddle();
 }
 
-function aboutLeft() {
+function aboutPanelLeft() {
   var aboutLeft = `
     <div id="homePanel">
       <h1>` + locales[lang].about.title + `</h1>
@@ -105,7 +105,7 @@ function aboutLeft() {
   return aboutLeft;
 };
 
-function aboutRight() {
+function aboutPanelRight() {
   var aboutRight = `
     <div class="formula-student-photo"></div>
   `;
@@ -113,15 +113,15 @@ function aboutRight() {
   return aboutRight;
 };
 
-function teamLeft() {};
+function teamPanelLeft() {};
 
-function teamRight() {};
+function teamPanelRight() {};
 
-function carsMiddle() {};
+function carsPanelMiddle() {};
 
-function carsRight() {};
+function carsPanelRight() {};
 
-function sponsorsLeft() {
+function sponsorsPanelLeft() {
   var sponsorsLeft = `
     <div id="homePanel">
       <h1>` + locales[lang].sponsors.title + `</h1>
@@ -132,7 +132,7 @@ function sponsorsLeft() {
   return sponsorsLeft;
 };
 
-function sponsorsRight() {
+function sponsorsPanelRight() {
   var sponsorsList = '';
 
   for (var level in locales[lang].sponsors["levels"]) {
@@ -163,7 +163,7 @@ function sponsorsRight() {
   return sponsorsRight;
 };
 
-function contactsLeft() {
+function contactsPanelRight() {
   var contactsLeft = `
    <div id="homePanel">
      <h1>` + locales[lang].contacts.title + `</h1>
@@ -174,7 +174,7 @@ function contactsLeft() {
   return contactsLeft;
 };
 
-function contactsRight() {
+function contactsPanelMiddle() {
   var contactsRight = `
    <div class="contact-map">
      <iframe
@@ -190,40 +190,55 @@ function contactsRight() {
   return contactsRight;
 };
 
+var desktopPanelSizes = {
+  "aboutPanelLeft" : "4",
+  "teamPanelLeft" : "4",
+  "sponsorsPanelLeft" : "4",
+  "homePanelMiddle" : "12",
+  "aboutPanelMiddle" : "4",
+  "teamPanelMiddle" : "8",
+  "carsPanelMiddle" : "8",
+  "sponsorsPanelMiddle" : "8",
+  "contactsPanelMiddle" : "8",
+  "aboutPanelRight" : "4",
+  "carsPanelRight" : "4",
+  "contactsPanelRight" : "4",
+};
+
 function panels() {
   var pages = "";
 
   if (device == 'desktop') {
     pages = `
       <div id="left-panel" class="panel">
-        <div id="aboutLeft"></div>
-        <div id="teamLeft"></div>
-        <div id="sponsorsLeft"></div>
+        <div id="aboutPanelLeft" class="page-panel"></div>
+        <div id="teamPanelLeft" class="page-panel"></div>
+        <div id="sponsorsPanelLeft" class="page-panel"></div>
       </div>
-      <div id="middle-panel" class="panel" style="width:100%;">
-        <div id="homeMiddle"></div>
-        <div id="aboutMiddle"></div>
-        <div id="teamMiddle"></div>
-        <div id="carsMiddle"></div>
-        <div id="sponsorsMiddle"></div>
-        <div id="contactsMiddle"></div>
+      <div id="middle-panel" class="panel">
+        <div id="homePanelMiddle" class="page-panel"></div>
+        <div id="aboutPanelMiddle" class="page-panel"></div>
+        <div id="teamPanelMiddle" class="page-panel"></div>
+        <div id="carsPanelMiddle" class="page-panel"></div>
+        <div id="sponsorsPanelMiddle" class="page-panel"></div>
+        <div id="contactsPanelMiddle" class="page-panel"></div>
       </div>
       <div id="right-panel" class="panel">
-        <div id="aboutRight"></div>
-        <div id="carsRight"></div>
-        <div id="contactsRight"></div>
+        <div id="aboutPanelRight" class="page-panel"></div>
+        <div id="carsPanelRight" class="page-panel"></div>
+        <div id="contactsPanelRight" class="page-panel"></div>
       </div>
     `;
   } else {
     pages = `
-      <div id="top-panel" class="panel col-xs-12">
-        <div id="homeTop" class="col-xs-12"></div>
+      <div id="top-panel" class="panel">
+        <div id="homeTop" class="page-panel"></div>
       </div>
-      <div id="middle-top-panel" class="panel col-xs-12">
+      <div id="middle-top-panel" class="panel">
       </div>
-      <div id="middle-bottom-panel" class="panel col-xs-12">
+      <div id="middle-bottom-panel" class="panel">
       </div>
-      <div id="bottom-panel" class="panel col-xs-12">
+      <div id="bottom-panel" class="panel">
       </div>
     `;
   }

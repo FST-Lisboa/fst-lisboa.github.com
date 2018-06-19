@@ -417,11 +417,11 @@ var locales = {
         },
       },
     },
-    "sobre": {
+    "about": {
       "title": "Formula Student",
       "text": "",
     },
-    "contactos": {
+    "contacts": {
       "title": "Contacts",
       "text": "",
     },
