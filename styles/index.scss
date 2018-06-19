@@ -1,130 +1,12 @@
+@import 'assets';
+@import 'header';
+@import './partials/home';
+@import 'contact';
+
 html, body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", "Noto", sans-serif;
-}
-
-header {
-  height: 70px;
-  font-size: 14px;
-  color: rgba(17, 17, 17, 0.6);
-
-  .home {
-    float: left;
-    padding: 8px 0px 8px 25px;
-    width: 20%;
-
-    img {
-      cursor: pointer;
-    }
-  }
-
-  nav {
-    float: left;
-    width: 60%;
-
-    ul {
-      margin: 0;
-      padding: 0;
-      text-align: center;
-
-      li {
-        display: inline-block;
-        margin: 27px 15px;
-        text-transform: uppercase;
-        cursor: pointer;
-
-        &:hover {
-          color: rgb(17, 17, 17);
-        }
-
-        &.active {
-          color: rgb(230, 33, 23);
-        }
-
-        &.change-language {
-          margin: 0px 15px;
-
-          img {
-            position: absolute;
-            height: 22px;
-            top: 22px;
-          }
-        }
-
-      }
-    }
-  }
-
-  .social-links {
-    float: right;
-    width: 20%;
-
-    ul {
-      float: right;
-      margin: 0;
-      padding: 0 25px 0 15px;
-
-      li {
-        display: inline-block;
-        margin: 25px 10px;
-        cursor: pointer;
-        font-size: 17px;
-
-        i:hover {
-          &.fa-twitter { color: #55acee; }
-          &.fa-facebook { color: #3b5998; }
-          &.fa-instagram { color: #e95950; }
-          &.fa-youtube { color: #ff0000; }
-        }
-      }
-    }
-  }
-
-  #menu {
-    display: none;
-    height: 0px;
-
-    &.open {
-      display: block;
-      height: 350px;
-      width: 100%;
-      position: absolute;
-      margin-top: 70px;
-      z-index: 2;
-      background-color: white;
-    }
-
-    nav {
-      width: 100%;
-
-      li {
-        display: block;
-
-        &.change-language {
-          margin: 0px 15px 15px;
-
-          img {
-            position: initial;
-          }
-        }
-      }
-    }
-
-    .social-links {
-      width: 100%;
-
-      ul {
-        float: none;
-        text-align: center;
-        padding: 0;
-
-        li {
-          margin: 25px 1  5px;
-        }
-      }
-    }
-  }
 }
 
 .panels {
@@ -132,13 +14,12 @@ header {
   background-color: rgb(250, 250, 250);
 
   .panel {
-    height: calc(100vh - 71px);
     float: left;
 
     .page-panel {
       display: none;
       width: 100%;
-      
+
       &.open {
         display: block;
       }
@@ -149,76 +30,6 @@ header {
         h1 {
           text-align: center;
           margin: 100px 0px;
-        }
-      }
-    }
-
-    &#top-panel {
-      .home {
-        background-position: right !important;
-
-        p {
-          padding: 100px;
-          text-align: justify;
-          text-justify: inter-word;
-        }
-      }
-    }
-
-    &#middle-panel {
-      .home {
-        p {
-          width: 65%;
-          padding: 100px;
-          text-align: justify;
-          text-justify: inter-word;
-        }
-      }
-    }
-
-    &#middle-panel, &#top-panel {
-      .home {
-        height: calc(100vh - 71px);
-        background-image: url(../images/photos/home.png);
-        background-size: cover;
-        background-position: center;
-        color: white;
-
-        p {
-          margin: 0;
-          font-size: 20px;
-          font-weight: bold;
-        }
-
-        .main-sponsors {
-          width: 100%;
-          position: absolute;
-          bottom: 0;
-          text-align: center;
-
-          .left-sponsor, .right-sponsor {
-            float: left;
-            width: 50%;
-
-            img {
-              width: 100px;
-              cursor: pointer;
-            }
-          }
-
-          .left-sponsor {
-            img {
-              float: right;
-              margin-right: 50px;
-            }
-          }
-
-          .right-sponsor {
-            img {
-              float: left;
-              margin-left: 50px;
-            }
-          }
         }
       }
     }
@@ -308,9 +119,6 @@ header {
             }
           }
         }
-      }
-      .contact-map {
-        height: calc(100vh - 74px);
       }
     }
   }

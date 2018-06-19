@@ -376,7 +376,36 @@ var locales = {
     },
     "contacts": {
       "title": "Contacts",
-      "text": "",
+      "info": {
+        "address": {
+          "title": "Address",
+          "text": `Núcleo Formula Student <br>
+            Instituto Superior Técnico – DEM, <br>
+            Avenida Rovisco Pais, nº1 <br>
+            1049-001 Lisboa <br>
+            Portugal`
+        },
+        "phone": {
+          "title": "Phone",
+          "text": "+351 21 841 7955"
+        },
+        "email": {
+          "title": "E-mail",
+          "text": "projectofst@fst.tecnico.ulisboa.pt"
+        },
+      },
+      "button": {
+        "preTag": "or",
+        "cta": "Send Message"
+      },
+      "form": {
+        "title": "Message",
+        "name": "Name",
+        "email": "E-mail",
+        "subject": "Subject",
+        "message": "Messagem",
+        "submit": "Submit",
+      },
     },
   },
   "pt": {
@@ -396,11 +425,10 @@ var locales = {
     },
     "home": {
       "title": "FST Lisboa",
-      "text": `Nós somos a FST Lisboa, um grupo de estudantes do Instituto Superior Técnico,
-        da Universidade de Lisboa, que projeta e constrói um carro tipo fórmula elétrico.
-        Representamos Portugal num circuito de uma das mais prestigiadas competições de
-        engenharia internacionais, a Formula Student.
-        <br> Explore o nosso website e saiba mais sobre o nosso projeto!`,
+      "text": `Nós somos a FST Lisboa, um grupo de estudantes do Instituto Superior Técnico, da
+        Universidade de Lisboa, que projeta e constrói um carro tipo fórmula elétrico. Representamos
+        Portugal na maior competição internacional para alunos de engenharia, a Formula Student.
+        <br>Explore o nosso website e saiba mais sobre o nosso projeto!`,
       "sponsors": {
         "title": "Patrocionadores Principais",
         "sponsors": {
@@ -422,8 +450,37 @@ var locales = {
       "text": "",
     },
     "contacts": {
-      "title": "Contacts",
-      "text": "",
+      "title": "Contactos",
+      "info": {
+        "address": {
+          "title": "Morada",
+          "text": `Núcleo Formula Student <br>
+            Instituto Superior Técnico – DEM, <br>
+            Avenida Rovisco Pais, nº1 <br>
+            1049-001 Lisboa <br>
+            Portugal`
+        },
+        "phone": {
+          "title": "Telefone",
+          "text": "+351 21 841 7955"
+        },
+        "email": {
+          "title": "E-mail",
+          "text": "projectofst@fst.tecnico.ulisboa.pt"
+        },
+      },
+      "button": {
+        "preTag": "ou",
+        "cta": "Envie Menssagem"
+      },
+      "form": {
+        "title": "Mensagem",
+        "name": "Nome",
+        "email": "E-mail",
+        "subject": "Assunto",
+        "message": "Mensagem",
+        "submit": "Enviar",
+      },
     },
   },
   "global": {
