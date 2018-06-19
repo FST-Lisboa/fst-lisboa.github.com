@@ -171,11 +171,11 @@ header #menu .social-links ul li {
 }
 .panels .panel#middle-panel .home .main-sponsors .left-sponsor img, .panels .panel#top-panel .home .main-sponsors .left-sponsor img {
   float: right;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 .panels .panel#middle-panel .home .main-sponsors .right-sponsor img, .panels .panel#top-panel .home .main-sponsors .right-sponsor img {
   float: left;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 .panels .panel#middle-panel {
   padding: 0;

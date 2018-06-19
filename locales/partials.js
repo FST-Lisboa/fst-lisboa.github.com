@@ -91,7 +91,7 @@ function homePanelMiddle() {
 };
 
 function homePanelTop() {
-  return homeMiddle();
+  return homePanelMiddle();
 }
 
 function aboutPanelLeft() {
@@ -232,7 +232,7 @@ function panels() {
   } else {
     pages = `
       <div id="top-panel" class="panel">
-        <div id="homeTop" class="page-panel"></div>
+        <div id="homePanelTop" class="page-panel"></div>
       </div>
       <div id="middle-top-panel" class="panel">
       </div>

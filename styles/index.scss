@@ -138,7 +138,7 @@ header {
     .page-panel {
       display: none;
       width: 100%;
-      
+
       &.open {
         display: block;
       }
@@ -209,14 +209,14 @@ header {
           .left-sponsor {
             img {
               float: right;
-              margin-right: 50px;
+              margin-right: 25px;
             }
           }
 
           .right-sponsor {
             img {
               float: left;
-              margin-left: 50px;
+              margin-left: 25px;
             }
           }
         }

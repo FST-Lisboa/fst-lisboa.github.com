@@ -396,11 +396,10 @@ var locales = {
     },
     "home": {
       "title": "FST Lisboa",
-      "text": `Nós somos a FST Lisboa, um grupo de estudantes do Instituto Superior Técnico,
-        da Universidade de Lisboa, que projeta e constrói um carro tipo fórmula elétrico.
-        Representamos Portugal num circuito de uma das mais prestigiadas competições de
-        engenharia internacionais, a Formula Student.
-        <br> Explore o nosso website e saiba mais sobre o nosso projeto!`,
+      "text": `Nós somos a FST Lisboa, um grupo de estudantes do Instituto Superior Técnico, da
+        Universidade de Lisboa, que projeta e constrói um carro tipo fórmula elétrico. Representamos
+        Portugal na maior competição internacional para alunos de engenharia, a Formula Student.
+        <br>Explore o nosso website e saiba mais sobre o nosso projeto!`,
       "sponsors": {
         "title": "Patrocionadores Principais",
         "sponsors": {
