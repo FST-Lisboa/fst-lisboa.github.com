@@ -155,10 +155,12 @@ header {
 
     &#top-panel {
       .home {
-        background-position-x: -2000px;
+        background-position: right !important;
 
         p {
           padding: 100px;
+          text-align: justify;
+          text-justify: inter-word;
         }
       }
     }
@@ -166,8 +168,10 @@ header {
     &#middle-panel {
       .home {
         p {
-          width: 60%;
+          width: 65%;
           padding: 100px;
+          text-align: justify;
+          text-justify: inter-word;
         }
       }
     }
@@ -177,6 +181,7 @@ header {
         height: calc(100vh - 71px);
         background-image: url(../images/photos/home.png);
         background-size: cover;
+        background-position: center;
         color: white;
 
         p {

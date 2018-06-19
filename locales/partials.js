@@ -69,18 +69,17 @@ function homePanelMiddle() {
     <div class="home col-xs-12">
       <p>` + locales[lang].home.text + `</p>
       <div class="main-sponsors col-xs-12">
-        <div class="col-xs-12">` + sponsors.title + `</div>
         <div class="col-xs-6 left-sponsor">
           <img
             onclick="openLink('` + sponsors.sponsors.novabase.url + `')"
-            src="./images/sponsors/platinum/` + sponsors.sponsors.novabase.image + `"
+            src="./images/logos/` + sponsors.sponsors.novabase.image + `"
             alt="` + sponsors.sponsors.novabase.title + `"
             title="` + sponsors.sponsors.novabase.title + `">
         </div>
         <div class="col-xs-6 right-sponsor">
           <img
             onclick="openLink('` + sponsors.sponsors.tecnico.url + `')"
-            src="./images/sponsors/platinum/` + sponsors.sponsors.tecnico.image + `"
+            src="./images/logos/` + sponsors.sponsors.tecnico.image + `"
             alt="` + sponsors.sponsors.tecnico.title + `"
             title="` + sponsors.sponsors.tecnico.title + `">
         </div>
