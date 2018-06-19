@@ -1,7 +1,13 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", "Noto", sans-serif;
+button {
+  padding: 15px;
+  background-color: #00A1E4;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  min-width: 100px;
 }
 
 header {
@@ -110,12 +116,130 @@ header #menu .social-links ul li {
   margin: 25px 1 5px;
 }
 
+#middle-panel .home p {
+  width: 65%;
+  padding: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#top-panel .home {
+  background-position: right !important;
+}
+#top-panel .home p {
+  padding: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#middle-panel .home, #top-panel .home {
+  height: calc(100vh - 71px);
+  background-image: url(../images/photos/home.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+#middle-panel .home p, #top-panel .home p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+#middle-panel .home .main-sponsors, #top-panel .home .main-sponsors {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+#middle-panel .home .main-sponsors .left-sponsor, #middle-panel .home .main-sponsors .right-sponsor, #top-panel .home .main-sponsors .left-sponsor, #top-panel .home .main-sponsors .right-sponsor {
+  float: left;
+  width: 50%;
+}
+#middle-panel .home .main-sponsors .left-sponsor img, #middle-panel .home .main-sponsors .right-sponsor img, #top-panel .home .main-sponsors .left-sponsor img, #top-panel .home .main-sponsors .right-sponsor img {
+  width: 100px;
+  cursor: pointer;
+}
+#middle-panel .home .main-sponsors .left-sponsor img, #top-panel .home .main-sponsors .left-sponsor img {
+  float: right;
+  margin-right: 25px;
+}
+#middle-panel .home .main-sponsors .right-sponsor img, #top-panel .home .main-sponsors .right-sponsor img {
+  float: left;
+  margin-left: 25px;
+}
+
+#middle-panel .contact-map {
+  height: calc(100vh - 74px);
+}
+
+#right-panel #contactsPanelRight #contactInfoPanel h1, #right-panel #contactsPanelMiddleTop #contactInfoPanel h1, #middle-top-panel #contactsPanelRight #contactInfoPanel h1, #middle-top-panel #contactsPanelMiddleTop #contactInfoPanel h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+#right-panel #contactsPanelRight #contactInfoPanel p, #right-panel #contactsPanelMiddleTop #contactInfoPanel p, #middle-top-panel #contactsPanelRight #contactInfoPanel p, #middle-top-panel #contactsPanelMiddleTop #contactInfoPanel p {
+  font-size: 16px;
+  padding: 0px 20px;
+}
+#right-panel #contactsPanelRight #contactInfoPanel p br, #right-panel #contactsPanelMiddleTop #contactInfoPanel p br, #middle-top-panel #contactsPanelRight #contactInfoPanel p br, #middle-top-panel #contactsPanelMiddleTop #contactInfoPanel p br {
+  line-height: 1.2;
+}
+#right-panel #contactsPanelRight #contactInfoPanel p.title, #right-panel #contactsPanelMiddleTop #contactInfoPanel p.title, #middle-top-panel #contactsPanelRight #contactInfoPanel p.title, #middle-top-panel #contactsPanelMiddleTop #contactInfoPanel p.title {
+  font-weight: bold;
+}
+#right-panel #contactsPanelRight #contactInfoPanel span, #right-panel #contactsPanelMiddleTop #contactInfoPanel span, #middle-top-panel #contactsPanelRight #contactInfoPanel span, #middle-top-panel #contactsPanelMiddleTop #contactInfoPanel span {
+  display: block;
+  text-align: center;
+}
+#right-panel #contactsPanelRight #contactFormPanel .close-form, #right-panel #contactsPanelMiddleTop #contactFormPanel .close-form, #middle-top-panel #contactsPanelRight #contactFormPanel .close-form, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel .close-form {
+  cursor: pointer;
+  font-size: 30px;
+}
+#right-panel #contactsPanelRight #contactFormPanel h1, #right-panel #contactsPanelMiddleTop #contactFormPanel h1, #middle-top-panel #contactsPanelRight #contactFormPanel h1, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+#right-panel #contactsPanelRight #contactFormPanel form, #right-panel #contactsPanelMiddleTop #contactFormPanel form, #middle-top-panel #contactsPanelRight #contactFormPanel form, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel form {
+  margin-top: 50px;
+}
+#right-panel #contactsPanelRight #contactFormPanel form label, #right-panel #contactsPanelMiddleTop #contactFormPanel form label, #middle-top-panel #contactsPanelRight #contactFormPanel form label, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel form label {
+  display: block;
+}
+#right-panel #contactsPanelRight #contactFormPanel form input, #right-panel #contactsPanelMiddleTop #contactFormPanel form input, #middle-top-panel #contactsPanelRight #contactFormPanel form input, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel form input {
+  width: 100%;
+  margin: 10px 0px;
+  height: 30px;
+}
+#right-panel #contactsPanelRight #contactFormPanel form textarea, #right-panel #contactsPanelMiddleTop #contactFormPanel form textarea, #middle-top-panel #contactsPanelRight #contactFormPanel form textarea, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel form textarea {
+  width: 100%;
+  margin: 10px 0px;
+  height: 125px;
+}
+
+#middle-panel, #right-panel {
+  height: calc(100vh - 71px);
+}
+
+#top-panel, #middle-top-panel {
+  width: 100%;
+}
+
+#middle-top-panel #contactsPanelMiddleTop {
+  margin-bottom: 50px;
+}
+#middle-top-panel #contactsPanelMiddleTop #contactFormPanel {
+  padding: 30px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Noto", sans-serif;
+}
+
 .panels {
   padding: 0 !important;
   background-color: #fafafa;
 }
 .panels .panel {
-  height: calc(100vh - 71px);
   float: left;
 }
 .panels .panel .page-panel {
@@ -128,54 +252,6 @@ header #menu .social-links ul li {
 .panels .panel#left-panel #homePanel h1 {
   text-align: center;
   margin: 100px 0px;
-}
-.panels .panel#top-panel .home {
-  background-position: right !important;
-}
-.panels .panel#top-panel .home p {
-  padding: 100px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-.panels .panel#middle-panel .home p {
-  width: 65%;
-  padding: 100px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-.panels .panel#middle-panel .home, .panels .panel#top-panel .home {
-  height: calc(100vh - 71px);
-  background-image: url(../images/photos/home.png);
-  background-size: cover;
-  background-position: center;
-  color: white;
-}
-.panels .panel#middle-panel .home p, .panels .panel#top-panel .home p {
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-}
-.panels .panel#middle-panel .home .main-sponsors, .panels .panel#top-panel .home .main-sponsors {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-}
-.panels .panel#middle-panel .home .main-sponsors .left-sponsor, .panels .panel#middle-panel .home .main-sponsors .right-sponsor, .panels .panel#top-panel .home .main-sponsors .left-sponsor, .panels .panel#top-panel .home .main-sponsors .right-sponsor {
-  float: left;
-  width: 50%;
-}
-.panels .panel#middle-panel .home .main-sponsors .left-sponsor img, .panels .panel#middle-panel .home .main-sponsors .right-sponsor img, .panels .panel#top-panel .home .main-sponsors .left-sponsor img, .panels .panel#top-panel .home .main-sponsors .right-sponsor img {
-  width: 100px;
-  cursor: pointer;
-}
-.panels .panel#middle-panel .home .main-sponsors .left-sponsor img, .panels .panel#top-panel .home .main-sponsors .left-sponsor img {
-  float: right;
-  margin-right: 25px;
-}
-.panels .panel#middle-panel .home .main-sponsors .right-sponsor img, .panels .panel#top-panel .home .main-sponsors .right-sponsor img {
-  float: left;
-  margin-left: 25px;
 }
 .panels .panel#middle-panel {
   padding: 0;
@@ -237,9 +313,6 @@ header #menu .social-links ul li {
 .panels .panel#middle-panel .sponsors-list .sponsors.institutional-partners-sponsor .sponsor {
   margin: 0 15px;
   width: 10%;
-}
-.panels .panel#middle-panel .contact-map {
-  height: calc(100vh - 74px);
 }
 
 /*# sourceMappingURL=styles/index.css.map */

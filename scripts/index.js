@@ -116,6 +116,16 @@ function openLink(link) {
   window.open(link, '_blank');
 };
 
+function displayContactForm() {
+  var id = device == 'desktop' ? 'contactsPanelRight' : 'contactsPanelMiddleTop';
+  document.getElementById(id).innerHTML = contactsPanelForm();
+};
+
+function closeContactForm() {
+  var id = device == 'desktop' ? 'contactsPanelRight' : 'contactsPanelMiddleTop';
+  document.getElementById(id).innerHTML = window[id]();
+};
+
 (function() {
   getLanguage();
   setDevice();
