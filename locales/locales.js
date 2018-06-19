@@ -34,8 +34,14 @@ var locales = {
       },
     },
     "about": {
-      "title": "Formula Student",
-      "text": "",
+      "fstLisboa": {
+        "title": "FST Lisboa",
+        "text": ``,
+      },
+      "formulaStudent": {
+        "title": "Formula Student",
+        "text": ``,
+      }
     },
     "sponsors": {
       "title": "Sponsors",
@@ -446,8 +452,46 @@ var locales = {
       },
     },
     "about": {
-      "title": "Formula Student",
-      "text": "",
+      "fstLisboa": {
+        "title": "FST Lisboa",
+        "text": `
+          Fundada em 2001, a FST Lisboa é a equipa de Formula Student do Instituto Superior
+          Técnico e uma das mais ativas em Portugal. <br>
+          Desde então, a equipa conta com sete protótipos desenhados e construídos, três carros
+          movidos a combustão e quatro elétricos. No presente ano e em tempo record, o quinto carro
+          da família dos elétricos, o FST 08e, foi desenvolvido e representará a equipa em três
+          competições internacionais: FSCzech, Formula Electric Italy e FSS. <br>
+          Uma mudança na cultura da equipa é assinalada com o desenvolvimento, no âmbito académico,
+          do  primeiro carro de corrida elétrico de alta performance, o FST 04e, do país,
+          impulsionada pelo apoio da Novabase.
+          Em 2017, a FST Lisboa apresentou o seu primeiro carro elétrico com quatro motores e prevê
+          implementar os seus próprios motores, objeto de estudo de diversos membros da equipa, no
+          próximo ano. Este progresso será um marco na história da equipa e para Portugal, já que é
+          o primeiro motor eléctrico de alta performance desenvolvido por estudantes, no país. <br>
+          A melhoria constante dos resultados da equipa, tem impulsionado excelentes carreiras
+          profissionais de diversos membros no mundo do desporto automóvel, incluindo Fórmula 1.
+        `,
+      },
+      "formulaStudent": {
+        "title": "Formula Student",
+        "text": `
+          A Formula Student (FS) é das mais conceituadas competições de engenharia na Europa, a
+          nível académico, e considerada por muitos como a mais inovadora, a seguir à Formula 1,
+          no ramo automóvel. <br>
+          A competição nasceu em 1981, nos Estados Unidos, impulsionada pela SAE (Sociedade de
+          Engenheiros da Mobilidade) e em 1998 foi importada para a Europa com o apoio do Instituto
+          da Engenharia Mecânica. <br>
+          Hoje em dia, a competição FS envolve mais de 700 equipas de todo o mundo que participam
+          anualmente em diversos eventos internacionais. <br>
+          O objetivo da competição é planear, projetar e construir um carro tipo formula. Deste
+          modo, pretendem cativar os jovens a ingressar no ramo da engenharia e, consequentemente,
+          desenvolver futuros empreendedores. <br>
+          A competição conta com dois tipos de provas: dinâmicas e estáticas. As primeiras avaliam
+          a performance do carro, enquanto que as segundas valorizam o projeto do mesmo. No total,
+          uma equipa pode pontuar no máximo 1000 pontos, se alcançar o primeiro lugar em todas as
+          provas.
+        `,
+      }
     },
     "contacts": {
       "title": "Contactos",

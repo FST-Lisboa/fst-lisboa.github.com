@@ -167,6 +167,44 @@ header #menu .social-links ul li {
   margin-left: 25px;
 }
 
+#left-panel .about, #right-panel .about, #middle-top-panel .about, #bottom-panel .about {
+  padding: 0px 15px;
+}
+#left-panel .about h1, #right-panel .about h1, #middle-top-panel .about h1, #bottom-panel .about h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+#left-panel .about p, #right-panel .about p, #middle-top-panel .about p, #bottom-panel .about p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+#left-panel .about p br, #right-panel .about p br, #middle-top-panel .about p br, #bottom-panel .about p br {
+  line-height: 2;
+}
+
+#middle-panel .about-images .cars, #middle-panel .about-images .team, #middle-panel .about-images .formula-student, #top-panel .about-images .cars, #top-panel .about-images .team, #top-panel .about-images .formula-student, #middle-bottom-panel .about-images .cars, #middle-bottom-panel .about-images .team, #middle-bottom-panel .about-images .formula-student {
+  height: calc((100vh - 71px)/3);
+}
+#middle-panel .about-images .cars, #top-panel .about-images .cars, #middle-bottom-panel .about-images .cars {
+  background-image: url(../images/photos/cars.png);
+  background-size: cover;
+  background-position: center;
+}
+#middle-panel .about-images .team, #top-panel .about-images .team, #middle-bottom-panel .about-images .team {
+  background-image: url(../images/photos/team.png);
+  background-size: cover;
+  background-position: center;
+}
+#middle-panel .about-images .formula-student, #top-panel .about-images .formula-student, #middle-bottom-panel .about-images .formula-student {
+  background-image: url(../images/photos/formula-student.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#aboutPanelMiddleTop, #aboutPanelBottom {
+  margin-bottom: 50px;
+}
+
 #middle-panel .contact-map {
   height: calc(100vh - 74px);
 }
@@ -214,19 +252,19 @@ header #menu .social-links ul li {
   height: 125px;
 }
 
-#middle-panel, #right-panel {
-  height: calc(100vh - 71px);
-}
-
-#top-panel, #middle-top-panel {
-  width: 100%;
-}
-
 #middle-top-panel #contactsPanelMiddleTop {
   margin-bottom: 50px;
 }
 #middle-top-panel #contactsPanelMiddleTop #contactFormPanel {
   padding: 30px;
+}
+
+#left-panel, #middle-panel, #right-panel {
+  height: calc(100vh - 71px);
+}
+
+#top-panel, #middle-top-panel, #middle-bottom-panel, #bottom-panel {
+  width: 100%;
 }
 
 html, body {
@@ -248,10 +286,6 @@ html, body {
 }
 .panels .panel .page-panel.open {
   display: block;
-}
-.panels .panel#left-panel #homePanel h1 {
-  text-align: center;
-  margin: 100px 0px;
 }
 .panels .panel#middle-panel {
   padding: 0;

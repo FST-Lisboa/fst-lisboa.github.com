@@ -1,7 +1,6 @@
-@import 'assets';
-@import 'header';
-@import './partials/home';
-@import 'contact';
+@import './partials/assets';
+@import './partials/header';
+@import './partials/panels';
 
 html, body {
   margin: 0;
@@ -22,15 +21,6 @@ html, body {
 
       &.open {
         display: block;
-      }
-    }
-
-    &#left-panel {
-      #homePanel {
-        h1 {
-          text-align: center;
-          margin: 100px 0px;
-        }
       }
     }
 
