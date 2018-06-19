@@ -123,19 +123,24 @@ header #menu .social-links ul li {
   margin: 100px 0px;
 }
 .panels .panel#top-panel .home {
-  background-position-x: -2000px;
+  background-position: right !important;
 }
 .panels .panel#top-panel .home p {
   padding: 100px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .panels .panel#middle-panel .home p {
-  width: 60%;
+  width: 65%;
   padding: 100px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .panels .panel#middle-panel .home, .panels .panel#top-panel .home {
   height: calc(100vh - 71px);
   background-image: url(../images/photos/home.png);
   background-size: cover;
+  background-position: center;
   color: white;
 }
 .panels .panel#middle-panel .home p, .panels .panel#top-panel .home p {
