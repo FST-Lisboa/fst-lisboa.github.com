@@ -1,0 +1,11 @@
+@import './home';
+@import './about';
+@import './contacts';
+
+#left-panel, #middle-panel, #right-panel {
+  height: calc(100vh - 71px);
+}
+
+#top-panel, #middle-top-panel, #middle-bottom-panel, #bottom-panel {
+  width: 100%;
+}

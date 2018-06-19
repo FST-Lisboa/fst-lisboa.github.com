@@ -101,22 +101,69 @@ function homePanelTop() {
 // About Panels
 
 function aboutPanelLeft() {
-  var aboutLeft = `
-    <div id="homePanel">
-      <h1>` + locales[lang].about.title + `</h1>
-      <p>` + locales[lang].about.text + `</p>
+  var fstLisboa = locales[lang].about.fstLisboa;
+
+  var aboutPanelLeft = `
+    <div class="about">
+      <h1>` + fstLisboa.title + `</h1>
+      <p>` + fstLisboa.text + `</p>
     </div>
   `;
 
-  return aboutLeft;
+  return aboutPanelLeft;
+};
+
+function aboutPanelMiddle() {
+  var aboutPanelMiddle = `
+    <div class="about-images">
+      <div class="cars"></div>
+      <div class="team"></div>
+      <div class="formula-student"></div>
+    </div>
+  `;
+
+  return aboutPanelMiddle;
 };
 
 function aboutPanelRight() {
-  var aboutRight = `
-    <div class="formula-student-photo"></div>
+  var formulaStudent = locales[lang].about.formulaStudent;
+
+  var aboutPanelRight = `
+    <div class="about">
+      <h1>` + formulaStudent.title + `</h1>
+      <p>` + formulaStudent.text + `</p>
+    </div>
   `;
 
-  return aboutRight;
+  return aboutPanelRight;
+};
+
+function aboutPanelTop() {
+  var aboutPanelTop = `
+    <div class="about-images">
+      <div class="cars"></div>
+      </div>
+    `;
+
+  return aboutPanelTop;
+};
+
+function aboutPanelMiddleTop() {
+  return aboutPanelLeft();
+};
+
+function aboutPanelMiddleBottom() {
+  var aboutPanelTop = `
+    <div class="about-images">
+      <div class="formula-student"></div>
+      </div>
+    `;
+
+  return aboutPanelTop;
+};
+
+function aboutPanelBottom() {
+  return aboutPanelLeft();
 };
 
 // Team Panels
@@ -308,14 +355,18 @@ function panels() {
     pages = `
       <div id="top-panel" class="panel">
         <div id="homePanelTop" class="page-panel"></div>
+        <div id="aboutPanelTop" class="page-panel"></div>
         <div id="contactsPanelTop" class="page-panel"></div>
       </div>
       <div id="middle-top-panel" class="panel">
+        <div id="aboutPanelMiddleTop" class="page-panel"></div
         <div id="contactsPanelMiddleTop" class="page-panel"></div>
       </div>
       <div id="middle-bottom-panel" class="panel">
+        <div id="aboutPanelMiddleBottom" class="page-panel"></div>
       </div>
       <div id="bottom-panel" class="panel">
+        <div id="aboutPanelBottom" class="page-panel"></div>
       </div>
     `;
   }
