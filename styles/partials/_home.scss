@@ -2,7 +2,7 @@
   .home {
     p {
       width: 65%;
-      padding: 100px;
+      padding: 100px 50px;
       text-align: justify;
       text-justify: inter-word;
     }
@@ -47,7 +47,7 @@
         cursor: pointer;
 
         &.left-sponsor {
-          margin: 0px 30px;
+          margin: 0px 50px;
         }
       }
     }

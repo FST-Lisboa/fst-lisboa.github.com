@@ -1,7 +1,16 @@
 @import './home';
 @import './about';
+@import './team';
 @import './sponsors';
 @import './contacts';
+
+#left-panel, #right-panel {
+  background-color: #f4fcff;
+}
+
+#middle-panel {
+  background-color: #f9f9f9;
+}
 
 #left-panel, #middle-panel, #right-panel {
   height: calc(100vh - 71px);
