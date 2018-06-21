@@ -116,6 +116,14 @@ function openLink(link) {
   window.open(link, '_blank');
 };
 
+function showSponsorDetails(levelIndex, sponsorIndex) {
+  document.getElementById('sponsorsPanelLeft').innerHTML = sponsorInfo(levelIndex, sponsorIndex);
+};
+
+function showSponsorsPanel() {
+  document.getElementById('sponsorsPanelLeft').innerHTML = sponsorsPanelLeft();
+}
+
 function displayContactForm() {
   var id = device == 'desktop' ? 'contactsPanelRight' : 'contactsPanelMiddleTop';
   document.getElementById(id).innerHTML = contactsPanelForm();
