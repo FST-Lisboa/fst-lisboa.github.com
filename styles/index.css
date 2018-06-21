@@ -14,6 +14,7 @@ header {
   height: 70px;
   font-size: 14px;
   color: rgba(17, 17, 17, 0.6);
+  border-bottom: 1px solid lightgray;
 }
 header .home {
   float: left;
@@ -118,7 +119,7 @@ header #menu .social-links ul li {
 
 #middle-panel .home p {
   width: 65%;
-  padding: 100px;
+  padding: 100px 50px;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -156,7 +157,7 @@ header #menu .social-links ul li {
   cursor: pointer;
 }
 #middle-panel .home .main-sponsors img.left-sponsor, #top-panel .home .main-sponsors img.left-sponsor {
-  margin: 0px 30px;
+  margin: 0px 50px;
 }
 
 #left-panel .about, #right-panel .about, #middle-top-panel .about, #bottom-panel .about {
@@ -197,6 +198,21 @@ header #menu .social-links ul li {
   margin-bottom: 50px;
 }
 
+#left-panel .team {
+  padding: 0px 15px;
+}
+#left-panel .team h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+#left-panel .team p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+#left-panel .team p br {
+  line-height: 2;
+}
+
 #left-panel #sponsorsPanel,
 #top-panel #sponsorsPanel {
   padding: 0px 30px;
@@ -213,7 +229,7 @@ header #menu .social-links ul li {
 }
 
 #middle-panel .sponsors-list {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 71px);
   overflow: auto;
 }
 
@@ -268,7 +284,7 @@ header #menu .social-links ul li {
 #middle-panel .sponsors-list .sponsors .sponsor img:hover,
 #middle-top-panel .sponsors-list .sponsors .sponsor img:hover {
   cursor: pointer;
-  border: 3px solid white;
+  border: 3px solid #f9f9f9;
 }
 #middle-panel .sponsors-list .sponsors.platinum-sponsor .sponsor,
 #middle-top-panel .sponsors-list .sponsors.platinum-sponsor .sponsor {
@@ -365,6 +381,14 @@ header #menu .social-links ul li {
   top: 250px;
 }
 
+#left-panel, #right-panel {
+  background-color: #f4fcff;
+}
+
+#middle-panel {
+  background-color: #f9f9f9;
+}
+
 #left-panel, #middle-panel, #right-panel {
   height: calc(100vh - 71px);
 }
@@ -397,7 +421,7 @@ html, body {
   padding: 0;
 }
 .panels .panel#middle-panel .formula-student-photo {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 71px);
   background-image: url(../images/photos/formula-student.png);
   background-size: cover;
   background-position-x: -20px;

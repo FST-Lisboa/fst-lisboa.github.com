@@ -17,7 +17,7 @@
 
 #middle-panel {
   .sponsors-list {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 71px);
     overflow: auto;
   }
 }
@@ -80,7 +80,7 @@
 
           &:hover {
             cursor: pointer;
-            border: 3px solid white;
+            border: 3px solid #f9f9f9;
           }
         }
       }
