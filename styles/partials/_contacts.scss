@@ -4,6 +4,14 @@
   }
 }
 
+#right-panel {
+  #contactsPanelRight {
+    #contactFormPanel {
+      padding: 0px 20px;
+    }
+  }
+}
+
 #right-panel, #middle-top-panel {
   #contactsPanelRight, #contactsPanelMiddleTop {
     #contactInfoPanel {
@@ -35,6 +43,8 @@
       .close-form {
         cursor: pointer;
         font-size: 30px;
+        position: fixed;
+        top: 80px;
       }
 
       h1 {
@@ -68,9 +78,14 @@
 #middle-top-panel {
   #contactsPanelMiddleTop {
     margin-bottom: 50px;
+    padding: 0 10px;
 
     #contactFormPanel {
-      padding: 30px;
+      padding: 0px 20px;
+
+      .close-form {
+        top: 250px;
+      }
     }
   }
 }

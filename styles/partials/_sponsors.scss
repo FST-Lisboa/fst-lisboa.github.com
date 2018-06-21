@@ -1,1 +1,131 @@
+#left-panel,
+#top-panel {
+  #sponsorsPanel {
+    padding: 0px 30px;
 
+    h1 {
+      text-align: center;
+      margin: 50px 0px;
+    }
+
+    p {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+}
+
+#middle-panel {
+  .sponsors-list {
+    height: calc(100vh - 70px);
+    overflow: auto;
+  }
+}
+
+#left-panel, {
+
+  #sponsorInfoPanel {
+    padding: 0 20px;
+
+    h3 {
+      margin: 0px auto 30px;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+    }
+
+    p {
+      text-align: justify;
+      text-justify: inter-word;
+
+      br {
+        line-height: 2;
+      }
+    }
+  }
+}
+
+#middle-panel,
+#middle-top-panel {
+
+  .sponsors-list {
+    text-align: center;
+
+    h2 {
+      font-size: 30px;
+      margin-top: 50px;
+    }
+
+    .sponsors {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+      .sponsor{
+        img {
+          max-width: 100%;
+
+          &:hover {
+            cursor: pointer;
+            border: 3px solid white;
+          }
+        }
+      }
+
+      &.platinum-sponsor {
+        .sponsor {
+          margin: 0 30px;
+          width: 35%;
+        }
+      }
+
+      &.gold-sponsor {
+        .sponsor {
+          margin: 0 50px;
+          width: 17%;
+        }
+      }
+
+      &.silver-sponsor {
+        .sponsor {
+          margin: 0 30px;
+          width: 15%;
+        }
+      }
+
+      &.bronze-sponsor {
+        .sponsor {
+          margin: 0 10px;
+          width: 12%;
+        }
+      }
+
+      &.partners-sponsor {
+        .sponsor {
+          margin: 0 10px;
+          width: 10%;
+        }
+      }
+
+      &.institutional-partners-sponsor {
+        .sponsor {
+          margin: 0 15px;
+          width: 10%;
+        }
+      }
+    }
+  }
+}

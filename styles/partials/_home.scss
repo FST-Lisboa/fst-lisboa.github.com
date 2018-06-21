@@ -41,27 +41,13 @@
       bottom: 0;
       text-align: center;
 
-      .left-sponsor, .right-sponsor {
+      img {
         float: left;
-        width: 50%;
+        width: 100px;
+        cursor: pointer;
 
-        img {
-          width: 100px;
-          cursor: pointer;
-        }
-      }
-
-      .left-sponsor {
-        img {
-          float: right;
-          margin-right: 25px;
-        }
-      }
-
-      .right-sponsor {
-        img {
-          float: left;
-          margin-left: 25px;
+        &.left-sponsor {
+          margin: 0px 30px;
         }
       }
     }

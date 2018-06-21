@@ -73,20 +73,17 @@ function homePanelMiddle() {
     <div class="home col-xs-12">
       <p>` + locales[lang].home.text + `</p>
       <div class="main-sponsors col-xs-12">
-        <div class="col-xs-6 left-sponsor">
-          <img
-            onclick="openLink('` + sponsors.sponsors.novabase.url + `')"
-            src="./images/logos/` + sponsors.sponsors.novabase.image + `"
-            alt="` + sponsors.sponsors.novabase.title + `"
-            title="` + sponsors.sponsors.novabase.title + `">
-        </div>
-        <div class="col-xs-6 right-sponsor">
-          <img
-            onclick="openLink('` + sponsors.sponsors.tecnico.url + `')"
-            src="./images/logos/` + sponsors.sponsors.tecnico.image + `"
-            alt="` + sponsors.sponsors.tecnico.title + `"
-            title="` + sponsors.sponsors.tecnico.title + `">
-        </div>
+        <img
+          class="left-sponsor"
+          onclick="openLink('` + sponsors.sponsors.novabase.url + `')"
+          src="./images/logos/` + sponsors.sponsors.novabase.image + `"
+          alt="` + sponsors.sponsors.novabase.title + `"
+          title="` + sponsors.sponsors.novabase.title + `">
+        <img
+          onclick="openLink('` + sponsors.sponsors.tecnico.url + `')"
+          src="./images/logos/` + sponsors.sponsors.tecnico.image + `"
+          alt="` + sponsors.sponsors.tecnico.title + `"
+          title="` + sponsors.sponsors.tecnico.title + `">
       </div>
     </div>
   `;
@@ -182,20 +179,24 @@ function carsPanelRight() {};
 
 function sponsorsPanelLeft() {
   var sponsorsLeft = `
-    <div id="homePanel">
+    <div id="sponsorsPanel">
       <h1>` + locales[lang].sponsors.title + `</h1>
-      <p>` + locales[lang].sponsors.text + `</p>
+      ` + locales[lang].sponsors.text + `
     </div>
   `;
 
   return sponsorsLeft;
 };
 
-function sponsorsPanelRight() {
+function sponsorsPanelTop() {
+  return sponsorsPanelLeft();
+}
+
+function sponsorsPanelMiddle() {
   var sponsorsList = '';
 
-  for (var level in locales[lang].sponsors["levels"]) {
-    var level = locales[lang].sponsors["levels"][level];
+  for (var levelIndex in locales[lang].sponsors["levels"]) {
+    var level = locales[lang].sponsors["levels"][levelIndex];
 
     sponsorsList += "<h2 class=\"col-sm-12 col-md-12\">" +
       level.title +
@@ -205,12 +206,21 @@ function sponsorsPanelRight() {
       level.class + "-sponsor" +
       " sponsors\">";
 
-    for (var sponsor in level.sponsors) {
-      var sponsor = level.sponsors[sponsor];
-      sponsorsList += "<div class=\"sponsor\" onclick=\"openLink('" + sponsor.url + "')\">" +
-          "<img src=\"./images/sponsors/" + level.class + '/' + sponsor.image + "\" alt=\"" + sponsor.title + "\" title=\"" + sponsor.title + "\">" +
-        "</div>"
-    }
+    for (var sponsorIndex in level.sponsors) {
+      var sponsor = level.sponsors[sponsorIndex];
+      sponsorsList += "<div class=\"sponsor\" onclick=\"openLink('" + sponsor.url + "')\">";
+      sponsorsList += "<img ";
+
+      if(device == 'desktop' && (levelIndex == 0 || levelIndex == 1)) {
+        sponsorsList +=  "onmouseover=\"showSponsorDetails('" + levelIndex + "', '" + sponsorIndex +"')\"";
+        sponsorsList += "onmouseout=\"showSponsorsPanel()\"";
+      }
+
+      sponsorsList += "src=\"./images/sponsors/" + level.class + '/' + sponsor.image + "\" ";
+      sponsorsList += "alt=\"" + sponsor.title + "\" ";
+      sponsorsList += "title=\"" + sponsor.title + "\">";
+      sponsorsList += "</div>";
+    };
 
     sponsorsList += "</div>";
   };
@@ -221,6 +231,30 @@ function sponsorsPanelRight() {
 
   return sponsorsRight;
 };
+
+function sponsorsPanelMiddleTop() {
+  return sponsorsPanelMiddle();
+}
+
+function sponsorInfo(levelIndex, sponsorIndex) {
+  var level = locales[lang].sponsors["levels"][levelIndex];
+  var sponsor = level.sponsors[sponsorIndex];
+
+  var sponsorInfo = `
+    <div id="sponsorInfoPanel">
+      <img
+        src="./images/sponsors/` + level.class + '/' + sponsor.image + `"
+        alt="` + sponsor.title + `"
+        title="` + sponsor.title + `"
+        align="middle"
+      >
+      <h3>` + sponsor.title + `</h3>
+      <p>` + sponsor.info + `</p>
+    </div>
+  `;
+
+  return sponsorInfo;
+}
 
 // Contacts Panels
 
@@ -356,10 +390,12 @@ function panels() {
       <div id="top-panel" class="panel">
         <div id="homePanelTop" class="page-panel"></div>
         <div id="aboutPanelTop" class="page-panel"></div>
+        <div id="sponsorsPanelTop" class="page-panel"></div>
         <div id="contactsPanelTop" class="page-panel"></div>
       </div>
       <div id="middle-top-panel" class="panel">
-        <div id="aboutPanelMiddleTop" class="page-panel"></div
+        <div id="aboutPanelMiddleTop" class="page-panel"></div>
+        <div id="sponsorsPanelMiddleTop" class="page-panel"></div>
         <div id="contactsPanelMiddleTop" class="page-panel"></div>
       </div>
       <div id="middle-bottom-panel" class="panel">
