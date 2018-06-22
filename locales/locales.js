@@ -50,6 +50,223 @@ var locales = {
         "text": ``,
       }
     },
+    "team": {
+      "title": "FST Lisboa",
+      "text": `
+      `,
+      "teams": [
+        {
+          "title": "Gestão",
+          "members": [
+            {
+              "name": "Henrique Karas",
+              "position": "Team Leader",
+              "picture": "HenriqueKaras.png",
+            },
+            {
+              "name": "António Bento",
+              "position": "Director Técnico",
+              "picture": "AntonioBento.png",
+            },
+            {
+              "name": "Henrique Motta",
+              "position": "Responsável patrocínios",
+              "picture": "HenriqueMotta.png",
+            },
+          ]
+        },
+        {
+          "title": "Aerodinâmica",
+          "members": [
+            {
+              "name": "Ricardo Ferreira",
+              "position": "Team Leader",
+              "picture": "RicardoFerreira.png",
+            },
+            {
+              "name": "Luís Morais",
+              "position": "Estrutural",
+              "picture": "LuisMorais.png",
+            },
+            {
+              "name": "Diogo Silva",
+              "position": "CFD",
+              "picture": "DiogoSilva.png",
+            },
+            {
+              "name": "Tomás Fontes",
+              "position": "CFD",
+              "picture": "TomasFontes.png",
+            },
+            {
+              "name": "Miguel Antunes",
+              "position": "Tunel de vento",
+              "picture": "MiguelAntunes.png",
+            },
+          ]
+        },
+        {
+          "title": "Chasis",
+          "members": [
+            {
+              "name": "João Formiga",
+              "position": "Team Leader",
+              "picture": "JoaoFormiga.png",
+            },
+            {
+              "name": "Miguel Lino",
+              "position": "Ergonomia",
+              "picture": "MiguelLino.png",
+            },
+            {
+              "name": "Diogo Ferreira",
+              "position": "FEM",
+              "picture": "DiogoFerreira.png",
+            },
+            {
+              "name": "Pedro Mendonça",
+              "position": "Monocoque",
+              "picture": "PedroMendonca.png",
+            },
+            {
+              "name": "Beatriz Mendes",
+              "position": "Caixas EL",
+              "picture": "BeatrizMendes.png",
+            },
+            {
+              "name": "Rui Paraíso",
+              "position": "Direcção",
+              "picture": "RuiParaiso.png",
+            },
+          ]
+        },
+        {
+          "title": "Transmissão",
+          "members": [
+            {
+              "name": "Midgon Batalha",
+              "position": "Team Leader",
+              "picture": "MidgonBatalha.png",
+            },
+            {
+              "name": "Gonçalo Costa",
+              "position": "Transmissão",
+              "picture": "GoncaloCosta.png",
+            },
+            {
+              "name": "André Barroso",
+              "position": "Cubo/Porta-Cubo",
+              "picture": "AndreBarroso.png",
+            },
+            {
+              "name": "Rodrigo Monteiro",
+              "position": "Travões/Jante",
+              "picture": "RodrigoMonteiro.png",
+            },
+          ]
+        },
+        {
+          "title": "Electrónica",
+          "members": [
+            {
+              "name": "Rui Loureiro",
+              "position": "Team Leader",
+              "picture": "RuiLoureiro.png",
+            },
+            {
+              "name": "João Freitas",
+              "position": "Hardware",
+              "picture": "JoaoFreitas.png",
+            },
+            {
+              "name": "Inês Viveiros",
+              "position": "Software",
+              "picture": "InesViveiros.png",
+            },
+            {
+              "name": "Tomás Carneiro",
+              "position": "Software",
+              "picture": "TomasCarneiro.png",
+            },
+          ]
+        },
+        {
+          "title": "Propulsão",
+          "members": [
+            {
+              "name": "Bruno Fernandes",
+              "position": "Team Leader",
+              "picture": "BrunoFernandes.png",
+            },
+            {
+              "name": "André Agostinho",
+              "position": "BMS",
+              "picture": "AndreAgostinho.png",
+            },
+            {
+              "name": "Bruno Figueiredo",
+              "position": "Electrónica Motores",
+              "picture": "BrunoFigueiredo.png",
+            },
+            {
+              "name": "Afonso Dias",
+              "position": "Refrigeração",
+              "picture": "AfonsoDias.png",
+            },
+            {
+              "name": "Tomás Carvalho",
+              "position": "Electrónica Motores/Bateria",
+              "picture": "TomasCarvalho.png",
+            },
+            {
+              "name": "Tiago Santos",
+              "position": "Estrutural",
+              "picture": "TiagoSantos.png",
+            },
+            {
+              "name": "Mónica Marques",
+              "position": "Projecto Motores",
+              "picture": "MonicaMarques.png",
+            },
+          ]
+        },
+        {
+          "title": "Dinâmica de Veículo",
+          "members": [
+            {
+              "name": "Rodrigo Ramos",
+              "position": "Team Leader",
+              "picture": "RodrigoRamos.png",
+            },
+            {
+              "name": "Stefan Sochirca",
+              "position": "Estrutural",
+              "picture": "StefanSochirca.png",
+            },
+            {
+              "name": "Miguel Soares",
+              "position": "Geometria",
+              "picture": "MiguelSoares.png",
+            },
+            {
+              "name": "Filipe Parrado",
+              "position": "Dinâmica",
+              "picture": "FilipeParrado.png",
+            },
+            {
+              "name": "Chenshan Xu",
+              "position": "Controlo",
+              "picture": "ChenshanXu.png",
+            },
+            {
+              "name": "Pedro Santos",
+              "position": "Simulação",
+              "picture": "PedroSantos.png",
+            },
+          ]
+        },
+      ]
+    },
     "sponsors": {
       "title": "Sponsors",
       "text": "",
@@ -507,6 +724,230 @@ var locales = {
           provas.
         `,
       }
+    },
+    "team": {
+      "title": "Equipa",
+      "text": `
+        A equipa é composta por 39 estudantes, de diversos cursos: Engenharia Mecância, Eletrónica,
+        Naval, Eletrónica e Computadores, Aeroespacial, Informática e Gestão Industrial.<br>
+        Ao integrarem a equipa, os membros vêm de forma clara os resultados da aplicação do
+        conhecimento académico adquirido, para além de potenciarem a auto-aprendizagem e o trabalho
+        autónomo. <br>
+        Tal como em qualquer grupo associativo ou empresa, a equipa está dividida por áreas: Gestão,
+        Chassis, Aerodinâmica, Eletrónica, Suspensão, Propulsão e Dinâmica de Veículo.
+      `,
+      "teams": [
+        {
+          "title": "Gestão",
+          "members": [
+            {
+              "name": "Henrique Karas",
+              "position": "Team Leader",
+              "picture": "HenriqueKaras.png",
+            },
+            {
+              "name": "António Bento",
+              "position": "Director Técnico",
+              "picture": "AntonioBento.png",
+            },
+            {
+              "name": "Henrique Motta",
+              "position": "Responsável patrocínios",
+              "picture": "HenriqueMotta.png",
+            },
+          ]
+        },
+        {
+          "title": "Aerodinâmica",
+          "members": [
+            {
+              "name": "Ricardo Ferreira",
+              "position": "Team Leader",
+              "picture": "RicardoFerreira.png",
+            },
+            {
+              "name": "Luís Morais",
+              "position": "Estrutural",
+              "picture": "LuisMorais.png",
+            },
+            {
+              "name": "Diogo Silva",
+              "position": "CFD",
+              "picture": "DiogoSilva.png",
+            },
+            {
+              "name": "Tomás Fontes",
+              "position": "CFD",
+              "picture": "TomasFontes.png",
+            },
+            // {
+            //   "name": "Miguel Antunes",
+            //   "position": "Tunel de vento",
+            //   "picture": "MiguelAntunes.png",
+            // },
+          ]
+        },
+        {
+          "title": "Chasis",
+          "members": [
+            {
+              "name": "João Formiga",
+              "position": "Team Leader",
+              "picture": "JoaoFormiga.png",
+            },
+            {
+              "name": "Miguel Lino",
+              "position": "Ergonomia",
+              "picture": "MiguelLino.png",
+            },
+            {
+              "name": "Diogo Ferreira",
+              "position": "FEM",
+              "picture": "DiogoFerreira.png",
+            },
+            {
+              "name": "Pedro Mendonça",
+              "position": "Monocoque",
+              "picture": "PedroMendonca.png",
+            },
+            {
+              "name": "Beatriz Mendes",
+              "position": "Caixas EL",
+              "picture": "BeatrizMendes.png",
+            },
+            {
+              "name": "Rui Paraíso",
+              "position": "Direcção",
+              "picture": "RuiParaiso.png",
+            },
+          ]
+        },
+        {
+          "title": "Transmissão",
+          "members": [
+            {
+              "name": "Migdon Batalha",
+              "position": "Team Leader",
+              "picture": "MigdonBatalha.png",
+            },
+            {
+              "name": "Gonçalo Costa",
+              "position": "Transmissão",
+              "picture": "GoncaloCosta.png",
+            },
+            {
+              "name": "André Barroso",
+              "position": "Cubo/Porta-Cubo",
+              "picture": "AndreBarroso.png",
+            },
+            {
+              "name": "Rodrigo Monteiro",
+              "position": "Travões/Jante",
+              "picture": "RodrigoMonteiro.png",
+            },
+          ]
+        },
+        {
+          "title": "Electrónica",
+          "members": [
+            {
+              "name": "Rui Loureiro",
+              "position": "Team Leader",
+              "picture": "RuiLoureiro.png",
+            },
+            {
+              "name": "João Freitas",
+              "position": "Hardware",
+              "picture": "JoaoFreitas.png",
+            },
+            {
+              "name": "Inês Viveiros",
+              "position": "Software",
+              "picture": "InesViveiros.png",
+            },
+            {
+              "name": "Tomás Carneiro",
+              "position": "Software",
+              "picture": "TomasCarneiro.png",
+            },
+          ]
+        },
+        {
+          "title": "Propulsão",
+          "members": [
+            {
+              "name": "Bruno Fernandes",
+              "position": "Team Leader",
+              "picture": "BrunoFernandes.png",
+            },
+            {
+              "name": "André Agostinho",
+              "position": "BMS",
+              "picture": "AndreAgostinho.png",
+            },
+            {
+              "name": "Bruno Figueiredo",
+              "position": "Electrónica Motores",
+              "picture": "BrunoFigueiredo.png",
+            },
+            {
+              "name": "Afonso Dias",
+              "position": "Refrigeração",
+              "picture": "AfonsoDias.png",
+            },
+            {
+              "name": "Tomás Carvalho",
+              "position": "Electrónica Motores/Bateria",
+              "picture": "TomasCarvalho.png",
+            },
+            {
+              "name": "Tiago Santos",
+              "position": "Estrutural",
+              "picture": "TiagoSantos.png",
+            },
+            {
+              "name": "Mónica Marques",
+              "position": "Projecto Motores",
+              "picture": "MonicaMarques.png",
+            },
+          ]
+        },
+        {
+          "title": "Dinâmica de Veículo",
+          "members": [
+            {
+              "name": "Rodrigo Ramos",
+              "position": "Team Leader",
+              "picture": "RodrigoRamos.png",
+            },
+            {
+              "name": "Stefan Sochirca",
+              "position": "Estrutural",
+              "picture": "StefanSochirca.png",
+            },
+            {
+              "name": "Miguel Soares",
+              "position": "Geometria",
+              "picture": "MiguelSoares.png",
+            },
+            {
+              "name": "Filipe Parrado",
+              "position": "Dinâmica",
+              "picture": "FilipeParrado.png",
+            },
+            {
+              "name": "Chenshan Xu",
+              "position": "Controlo",
+              "picture": "ChenshanXu.png",
+            },
+            {
+              "name": "Pedro Santos",
+              "position": "Simulação",
+              "picture": "PedroSantos.png",
+            },
+          ]
+        },
+      ]
     },
     "sponsors": {
       "title": "Patrocinadores",
