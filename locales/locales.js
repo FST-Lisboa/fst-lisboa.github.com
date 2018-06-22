@@ -43,20 +43,60 @@ var locales = {
       "fstLisboa": {
         "title": "FST Lisboa",
         "text": `
+          Founded in 2001, FST is the Formula student team of Instituto Superior Técnico and one of
+          the most active ones. <br>
+          Since then, the team counts with seven prototypes designed and built, 3 of them with
+          combustion engine and 4 electric. In the present year, and in record time, the fifth car
+          of the electric ones, FST 08e, was developed and will represent the team in 3
+          international championships: FSCzech, Formula Electric Italy and FSS. <br>
+          A change in the team culture was introduced with the development, in academic
+          environment, of the first electric race car of high performance, the FST04e, in all
+          country, with the launch of Novabase. <br>
+          In 2017, FST Lisboa presented his first electric car with 4 motors and intends to
+          implement its own motors, study subject of several team members, next year. This
+          progress will be an exceptional achievement for the team and for Portugal, as it is
+          the first electric motor of high performance developed by students, in the country.
+          The permanent improvement of the team results has launched excellent professional
+          careers among several members, in the motosport world, including Formula 1.
         `,
       },
       "formulaStudent": {
         "title": "Formula Student",
-        "text": ``,
+        "text": `
+          Formula student (FS) is one of most well establish engineering championships in Europe,
+          in academic environment, and considered by many, as the most innovative, next to Formula
+          1. <br>
+          The competition was born in 1981, in the EUA, launched by SAE (Society of Engineers of
+          Mobility) and in 1988 was imported to Europe with the support of IMechE (Mechanical
+          Engineering Institute). <br>
+          Currently, the FS competition involves more than 700 teams from all over the world,
+          which participate annually in several international events. <br>
+          The aim of the competition is to design, build, test and race a formula type electric
+          car. In this way, they want to attract young people to the engineering field and
+          develop future entrepreneurs. <br>
+          The competition counts with 2 types of evaluation: dynamic and static ones. The first
+          one evaluate the performance of the car, while the second ones evaluate the project
+          itself. Summarizing, one team could punctuate 1000 points in maximum, if reaches
+          the first place in all events.
+        `,
       }
     },
     "team": {
-      "title": "FST Lisboa",
+      "title": "Team",
       "text": `
+        The team is composed by 39 members, of several courses: Mechanical, Electronics,
+        Naval, Electronical and Computers, Aerospace Engineering, Informatics and
+        Industrial Management. <br>
+        By joining the team, members can easily see the results of the academic knowledge
+        application, despite the development of their own self-knowledge and autonomous
+        work. <br>
+        Like in any other associative group or company, the team is organized by areas:
+        Management, Chassis, Aerodynamics, Drivetrain, Electronics, Powertrain and
+        Vehicle Dynamics.
       `,
       "teams": [
         {
-          "title": "Gestão",
+          "title": "Management",
           "members": [
             {
               "name": "Henrique Karas",
@@ -144,9 +184,9 @@ var locales = {
           "title": "Transmissão",
           "members": [
             {
-              "name": "Midgon Batalha",
+              "name": "Migdon Batalha",
               "position": "Team Leader",
-              "picture": "MidgonBatalha.png",
+              "picture": "MigdonBatalha.png",
             },
             {
               "name": "Gonçalo Costa",
@@ -228,6 +268,11 @@ var locales = {
               "position": "Projecto Motores",
               "picture": "MonicaMarques.png",
             },
+            {
+              "name": "Teodoro Dias",
+              "position": "Electrónica",
+              "picture": "TeodoroDias.png",
+            },
           ]
         },
         {
@@ -260,8 +305,13 @@ var locales = {
             },
             {
               "name": "Pedro Santos",
-              "position": "Simulação",
+              "position": "Controlo",
               "picture": "PedroSantos.png",
+            },
+            {
+              "name": "Diogo Pereira",
+              "position": "Simulação",
+              "picture": "DiogoPereira.png",
             },
           ]
         },
@@ -269,7 +319,24 @@ var locales = {
     },
     "sponsors": {
       "title": "Sponsors",
-      "text": "",
+      "text": `
+        <p> The success of the results achieved by the team would never been possible without
+        the support of the sponsors. While investing in FST Lisboa, not only provide the
+        constantly growing of the project, but also allows the connection with students from
+        one of the best engineering schools of the country and featured to deal with the work
+        place demands.</p>
+        <p> Different levels of sponsorships are presented, depending on the commitment of the
+        companies:</p>
+        <ul>
+          <li>Platinum</li>
+          <li>Gold</li>
+          <li>Silver</li>
+          <li>Bronze</li>
+          <li>Partner</li>
+        </ul>
+        <p> The return for the companies can include the logo in the car, publicity in social
+        networks or the participation on events organized by the team.</p>
+      `,
       "levels": [
         {
           "title": "Platinum",
@@ -279,13 +346,30 @@ var locales = {
               "title": "NovaBase",
               "image": "novabase.png",
               "url": "http://www.novabase.pt/pt",
-              "info": "",
+              "info": `
+                Novabase is the first company, in Portugal, to achieve the IPQ ( Quality Portuguese
+                Institute) certification, in development software market. Since its foundation,
+                has been spreading the development and work areas, actually in the Industry of
+                Energy, Financial Services, Government, Telecommunications and Transports. <br>
+                As the main sponsorship of the team, Novabase aims to get proximity to the
+                university world to identify candidates to the labor market and technological
+                strategies of development.
+              `,
             },
             {
               "title": "Técnico Lisboa",
               "image": "tecnico.png",
               "url": "https://tecnico.ulisboa.pt/pt/",
-              "info": "",
+              "info": `
+                Founded in 1911, the Instituto Superior Técnico (IST) has been contributing,
+                throughout many years, to the development and promotion of a higher education of
+                excellency in the field of Arquitecture , Engineering, Science and Technology.
+                Despite that, it integrates a huge quantity of investigation, development and
+                innovation activities, with excellent features in international rankings. <br>
+                The support of the Institute in the development of projects such as FST Lisboa
+                allows the student group to practice the knowledge acquired through the academic
+                life, overwhelming several challenges, and project them in the labor field.
+              `,
             },
           ]
         },
@@ -297,19 +381,34 @@ var locales = {
               "title": "TE Connectivity",
               "image": "te-connectivity.png",
               "url": "http://www.te.com/global-en/home.html",
-              "info": "",
+              "info": `
+                TE Connectivity is a multinational company which projects and manufacture
+                solutions of connectors, sensors an electronic composers for several industries,
+                such as automobile, Industrial equipment’s, data communication Systems,
+                Aerospatiale, Defense, Electronic Composers and Communication. <br>
+                The supply of the electronic composers is due to the support of this company,
+                leading to the improvement of the team work of electronic field.
+              `,
             },
             {
               "title": "Edaetech",
               "image": "edaetech.png",
               "url": "http://www.edaetech.pt/",
-              "info": "",
+              "info": `
+                EDAETECH has emerged as a company capable of providing engineering services,
+                with special approach to automobile industry. Since the project and conception
+                phase to the development, build and industrialization of products, gives response to
+                a several operations. <br>
+                The bet in the development of fabrication processes has an extreme relevance for
+                the team, giving technical support in topological optimization and design, allowing
+                the achievement of geometrical pieces of an excellent quality.
+              `,
             },
             {
               "title": "Primetec",
               "image": "primetec.png",
               "url": "http://primetec.pt/",
-              "info": "",
+              "info": ``,
             },
             {
               "title": "SKF",
@@ -321,13 +420,26 @@ var locales = {
               "title": "Opel",
               "image": "opel.png",
               "url": "http://www.opel.pt/",
-              "info": "",
+              "info": `
+                Opel is one of the main automobile constructers in Europe. Its mission aims to a
+                constant and growing adaptation to the recent technologies in its products and
+                services, in order to give an answer to the major number of people and its own
+                needs.
+              `
             },
             {
               "title": "Tecdigital",
               "image": "tecdigital.png",
               "url": "http://www.tecdigital.pt/",
-              "info": "",
+              "info": `
+                TECdigital is an enterprise specialized in fabrication 3D. it disposals fabrication
+                services of several types of materials for several engineering fields, such as molds,
+                stamps and Skarps, mechanical in general, arquitecture projects, etc, which
+                characterizes the needs for tridimensional technology uses. <br>
+                The concern for the quality of their services is determinant for the team, as this
+                enterprise provides MDF, material which is used in positive molds of the
+                monocoque, nee of the chassis and aerodynamic pack, and also milling processes.
+              `,
             },
           ],
         },
@@ -780,11 +892,11 @@ var locales = {
               "position": "CFD",
               "picture": "TomasFontes.png",
             },
-            // {
-            //   "name": "Miguel Antunes",
-            //   "position": "Tunel de vento",
-            //   "picture": "MiguelAntunes.png",
-            // },
+            {
+              "name": "Miguel Antunes",
+              "position": "Tunel de vento",
+              "picture": "MiguelAntunes.png",
+            },
           ]
         },
         {
@@ -910,6 +1022,11 @@ var locales = {
               "position": "Projecto Motores",
               "picture": "MonicaMarques.png",
             },
+            {
+              "name": "Teodoro Dias",
+              "position": "Electrónica",
+              "picture": "TeodoroDias.png",
+            },
           ]
         },
         {
@@ -942,8 +1059,13 @@ var locales = {
             },
             {
               "name": "Pedro Santos",
-              "position": "Simulação",
+              "position": "Controlo",
               "picture": "PedroSantos.png",
+            },
+            {
+              "name": "Diogo Pereira",
+              "position": "Simulação",
+              "picture": "DiogoPereira.png",
             },
           ]
         },
@@ -1002,7 +1124,7 @@ var locales = {
                 O apoio da instituição no desenvolvimento de projetos como a FST Lisboa permite ao
                 corpo estudantil colocar em prática os conhecimentos adquiridos ao longo do percurso
                 académico, ultrapassando vários desafios, projetando-os positivamente no mundo de
-                trabalho
+                trabalho.
               `
             },
           ]
@@ -1044,8 +1166,7 @@ var locales = {
               "title": "Primetec",
               "image": "primetec.png",
               "url": "http://primetec.pt/",
-              "info": `
-              `
+              "info": ``,
             },
             {
               "title": "SKF",
