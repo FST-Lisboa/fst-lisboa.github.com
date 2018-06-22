@@ -198,19 +198,73 @@ header #menu .social-links ul li {
   margin-bottom: 50px;
 }
 
-#left-panel .team {
+#left-panel .team,
+#top-panel .team {
   padding: 0px 15px;
 }
-#left-panel .team h1 {
+#left-panel .team h1,
+#top-panel .team h1 {
   text-align: center;
   margin: 50px 0px;
 }
-#left-panel .team p {
+#left-panel .team p,
+#top-panel .team p {
   text-align: justify;
   text-justify: inter-word;
 }
-#left-panel .team p br {
+#left-panel .team p br,
+#top-panel .team p br {
   line-height: 2;
+}
+
+#middle-panel .team-list {
+  height: calc(100vh - 71px);
+  overflow: auto;
+}
+
+#middle-panel .team-list,
+#middle-top-panel .team-list {
+  text-align: center;
+}
+#middle-panel .team-list h2,
+#middle-top-panel .team-list h2 {
+  font-size: 30px;
+  margin: 50px 0px;
+}
+#middle-panel .team-list .members,
+#middle-top-panel .team-list .members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#middle-panel .team-list .members .member,
+#middle-top-panel .team-list .members .member {
+  margin: 0 30px;
+  width: 15%;
+  border-radius: 50%;
+}
+#middle-panel .team-list .members .member img,
+#middle-top-panel .team-list .members .member img {
+  max-width: 100%;
+  border-radius: inherit;
+}
+#middle-panel .team-list .members .member h4,
+#middle-top-panel .team-list .members .member h4 {
+  margin-bottom: 0;
+}
+#middle-panel .team-list .members .member h5,
+#middle-top-panel .team-list .members .member h5 {
+  margin-top: 5px;
+  color: rgba(17, 17, 17, 0.6);
+  line-height: 1.4;
 }
 
 #left-panel #sponsorsPanel,

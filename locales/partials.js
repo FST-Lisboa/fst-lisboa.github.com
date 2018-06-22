@@ -165,9 +165,59 @@ function aboutPanelBottom() {
 
 // Team Panels
 
-function teamPanelLeft() {};
+function teamPanelLeft() {
+  var team = locales[lang].team;
 
-function teamPanelRight() {};
+  var teamPanelLeft = `
+    <div class="team">
+      <h1>` + team.title + `</h1>
+      <p>` + team.text + `</p>
+    </div>
+  `;
+
+  return teamPanelLeft;
+};
+
+function teamPanelTop() {
+  return teamPanelLeft();
+}
+
+function teamPanelMiddle() {
+  var teamList = "";
+
+  for (var teamIndex in locales[lang].team.teams) {
+    var team = locales[lang].team.teams[teamIndex];
+
+    teamList += "<h2 class=\"col-sm-12 col-md-12 \">" +
+        team.title +
+      "</h2>";
+
+    teamList += "<div class=\"col-sm-12 col-md-12 members\">";
+
+    for (var membersIndex in team.members) {
+      var member = team.members[membersIndex];
+
+      teamList += "<div class=\"member\">";
+      teamList += "<img ";
+      teamList += "src=\"./images/photos/team-members/" + member.picture + "\" ";
+      teamList += "alt=\"" + member.name + "\" ";
+      teamList += "title=\"" + member.name + "\">";
+      teamList += `<h4>` + member.name + ``;
+      teamList += `<h5>` + member.position + ``;
+      teamList += "</div>";
+    };
+  };
+
+  teamList += "</div>";
+
+  var teamPanelMiddle = `<div class="team-list">` + teamList + `</div>`;
+
+  return teamPanelMiddle;
+};
+
+function teamPanelMiddleTop(){
+  return teamPanelMiddle();
+}
 
 // Cars Panels
 
@@ -225,11 +275,9 @@ function sponsorsPanelMiddle() {
     sponsorsList += "</div>";
   };
 
-  var sponsorsRight = `
-    <div class="sponsors-list">` + sponsorsList + `</div>
-  `;
+  var sponsorsPanelMiddle = `<div class="sponsors-list">` + sponsorsList + `</div>`;
 
-  return sponsorsRight;
+  return sponsorsPanelMiddle;
 };
 
 function sponsorsPanelMiddleTop() {
@@ -390,11 +438,13 @@ function panels() {
       <div id="top-panel" class="panel">
         <div id="homePanelTop" class="page-panel"></div>
         <div id="aboutPanelTop" class="page-panel"></div>
+        <div id="teamPanelTop" class="page-panel"></div>
         <div id="sponsorsPanelTop" class="page-panel"></div>
         <div id="contactsPanelTop" class="page-panel"></div>
       </div>
       <div id="middle-top-panel" class="panel">
         <div id="aboutPanelMiddleTop" class="page-panel"></div>
+        <div id="teamPanelMiddleTop" class="page-panel"></div>
         <div id="sponsorsPanelMiddleTop" class="page-panel"></div>
         <div id="contactsPanelMiddleTop" class="page-panel"></div>
       </div>
