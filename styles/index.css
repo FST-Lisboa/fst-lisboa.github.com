@@ -11,17 +11,18 @@ button {
 }
 
 header {
-  height: 70px;
-  font-size: 14px;
+  height: 7vh;
+  font-size: 1em;
   color: rgba(17, 17, 17, 0.6);
   border-bottom: 1px solid lightgray;
 }
 header .home {
   float: left;
-  padding: 8px 0px 8px 25px;
+  padding: 1.4vh 0px 1.4vh 25px;
   width: 20%;
 }
 header .home img {
+  height: 4vh;
   cursor: pointer;
 }
 header nav {
@@ -35,7 +36,7 @@ header nav ul {
 }
 header nav ul li {
   display: inline-block;
-  margin: 27px 15px;
+  margin: 2.7vh 15px;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -50,7 +51,7 @@ header nav ul li.change-language {
 }
 header nav ul li.change-language img {
   position: absolute;
-  height: 22px;
+  height: 2.5vh;
   top: 22px;
 }
 header .social-links {
@@ -83,10 +84,11 @@ header .social-links ul li i:hover.fa-youtube {
 header #menu {
   display: none;
   height: 0px;
+  font-size: 2em;
 }
 header #menu.open {
   display: block;
-  height: 350px;
+  height: 36vh;
   width: 100%;
   position: absolute;
   margin-top: 70px;
@@ -115,6 +117,7 @@ header #menu .social-links ul {
 }
 header #menu .social-links ul li {
   margin: 25px 1 5px;
+  font-size: 1.5em;
 }
 
 #middle-panel .home p {
@@ -134,7 +137,7 @@ header #menu .social-links ul li {
 }
 
 #middle-panel .home, #top-panel .home {
-  height: calc(100vh - 71px);
+  height: calc(100vh - 7.2vh);
   background-image: url(../images/photos/home.png);
   background-size: cover;
   background-position: center;
@@ -142,7 +145,7 @@ header #menu .social-links ul li {
 }
 #middle-panel .home p, #top-panel .home p {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 #middle-panel .home .main-sponsors, #top-panel .home .main-sponsors {
@@ -160,12 +163,16 @@ header #menu .social-links ul li {
   margin: 0px 50px;
 }
 
+#left-panel .about, #right-panel .about {
+  height: calc(100vh - 7.2vh);
+}
+
 #left-panel .about, #right-panel .about, #middle-top-panel .about, #bottom-panel .about {
-  padding: 0px 15px;
+  padding: 50px 15px 0px;
 }
 #left-panel .about h1, #right-panel .about h1, #middle-top-panel .about h1, #bottom-panel .about h1 {
   text-align: center;
-  margin: 50px 0px;
+  margin-bottom: 50px;
 }
 #left-panel .about p, #right-panel .about p, #middle-top-panel .about p, #bottom-panel .about p {
   text-align: justify;
@@ -176,7 +183,7 @@ header #menu .social-links ul li {
 }
 
 #middle-panel .about-images .cars, #middle-panel .about-images .team, #middle-panel .about-images .formula-student, #top-panel .about-images .cars, #top-panel .about-images .team, #top-panel .about-images .formula-student, #middle-bottom-panel .about-images .cars, #middle-bottom-panel .about-images .team, #middle-bottom-panel .about-images .formula-student {
-  height: calc((100vh - 71px)/3);
+  height: calc((100vh - 7.2vh)/3);
 }
 #middle-panel .about-images .cars, #top-panel .about-images .cars, #middle-bottom-panel .about-images .cars {
   background-image: url(../images/photos/cars.png);
@@ -198,14 +205,18 @@ header #menu .social-links ul li {
   margin-bottom: 50px;
 }
 
+#left-panel .team {
+  height: calc(100vh - 7.2vh);
+}
+
 #left-panel .team,
 #top-panel .team {
-  padding: 0px 15px;
+  padding: 50px 15px 0px;
 }
 #left-panel .team h1,
 #top-panel .team h1 {
   text-align: center;
-  margin: 50px 0px;
+  margin-bottom: 50px;
 }
 #left-panel .team p,
 #top-panel .team p {
@@ -218,7 +229,7 @@ header #menu .social-links ul li {
 }
 
 #middle-panel .team-list {
-  height: calc(100vh - 71px);
+  height: calc(100vh - 7.2vh);
   overflow: auto;
 }
 
@@ -228,7 +239,7 @@ header #menu .social-links ul li {
 }
 #middle-panel .team-list h2,
 #middle-top-panel .team-list h2 {
-  font-size: 30px;
+  font-size: 2em;
   margin: 50px 0px;
 }
 #middle-panel .team-list .members,
@@ -259,22 +270,28 @@ header #menu .social-links ul li {
 #middle-panel .team-list .members .member h4,
 #middle-top-panel .team-list .members .member h4 {
   margin-bottom: 0;
+  font-size: 1em;
 }
 #middle-panel .team-list .members .member h5,
 #middle-top-panel .team-list .members .member h5 {
+  font-size: 0.8em;
   margin-top: 5px;
   color: rgba(17, 17, 17, 0.6);
   line-height: 1.4;
 }
 
+#left-panel #sponsorsPanel, #left-panel #sponsorInfoPanel {
+  height: calc(100vh - 7.2vh);
+}
+
 #left-panel #sponsorsPanel,
 #top-panel #sponsorsPanel {
-  padding: 0px 30px;
+  padding: 50px 30px 0px;
 }
 #left-panel #sponsorsPanel h1,
 #top-panel #sponsorsPanel h1 {
   text-align: center;
-  margin: 50px 0px;
+  margin-bottom: 50px;
 }
 #left-panel #sponsorsPanel p,
 #top-panel #sponsorsPanel p {
@@ -283,7 +300,7 @@ header #menu .social-links ul li {
 }
 
 #middle-panel .sponsors-list {
-  height: calc(100vh - 71px);
+  height: calc(100vh - 7.2vh);
   overflow: auto;
 }
 
@@ -372,19 +389,23 @@ header #menu .social-links ul li {
 }
 
 #middle-panel .contact-map {
-  height: calc(100vh - 74px);
+  height: calc(100vh - 7.6vh);
 }
 
-#right-panel #contactsPanelRight #contactFormPanel {
-  padding: 0px 20px;
+#right-panel #contactInfoPanel, #right-panel #contactFormPanel {
+  height: calc(100vh - 12.3vh);
+}
+
+#right-panel #contactsPanelRight, #right-panel #contactFormPanel {
+  padding: 50px 20px 0px;
 }
 
 #right-panel #contactsPanelRight #contactInfoPanel h1, #right-panel #contactsPanelMiddleTop #contactInfoPanel h1, #middle-top-panel #contactsPanelRight #contactInfoPanel h1, #middle-top-panel #contactsPanelMiddleTop #contactInfoPanel h1 {
   text-align: center;
-  margin: 50px 0px;
+  margin: 0px 0px 50px;
 }
 #right-panel #contactsPanelRight #contactInfoPanel p, #right-panel #contactsPanelMiddleTop #contactInfoPanel p, #middle-top-panel #contactsPanelRight #contactInfoPanel p, #middle-top-panel #contactsPanelMiddleTop #contactInfoPanel p {
-  font-size: 16px;
+  font-size: 1em;
   padding: 0px 20px;
 }
 #right-panel #contactsPanelRight #contactInfoPanel p br, #right-panel #contactsPanelMiddleTop #contactInfoPanel p br, #middle-top-panel #contactsPanelRight #contactInfoPanel p br, #middle-top-panel #contactsPanelMiddleTop #contactInfoPanel p br {
@@ -405,7 +426,7 @@ header #menu .social-links ul li {
 }
 #right-panel #contactsPanelRight #contactFormPanel h1, #right-panel #contactsPanelMiddleTop #contactFormPanel h1, #middle-top-panel #contactsPanelRight #contactFormPanel h1, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel h1 {
   text-align: center;
-  margin: 50px 0px;
+  margin-bottom: 50px;
 }
 #right-panel #contactsPanelRight #contactFormPanel form, #right-panel #contactsPanelMiddleTop #contactFormPanel form, #middle-top-panel #contactsPanelRight #contactFormPanel form, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel form {
   margin-top: 50px;
@@ -416,12 +437,12 @@ header #menu .social-links ul li {
 #right-panel #contactsPanelRight #contactFormPanel form input, #right-panel #contactsPanelMiddleTop #contactFormPanel form input, #middle-top-panel #contactsPanelRight #contactFormPanel form input, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel form input {
   width: 100%;
   margin: 10px 0px;
-  height: 30px;
+  height: 3vh;
 }
 #right-panel #contactsPanelRight #contactFormPanel form textarea, #right-panel #contactsPanelMiddleTop #contactFormPanel form textarea, #middle-top-panel #contactsPanelRight #contactFormPanel form textarea, #middle-top-panel #contactsPanelMiddleTop #contactFormPanel form textarea {
   width: 100%;
   margin: 10px 0px;
-  height: 125px;
+  height: 13vh;
 }
 
 #middle-top-panel #contactsPanelMiddleTop {
@@ -435,33 +456,12 @@ header #menu .social-links ul li {
   top: 250px;
 }
 
-#left-panel, #right-panel {
-  background-color: #f4fcff;
-}
-
-#middle-panel {
-  background-color: #f9f9f9;
-}
-
-#left-panel, #middle-panel, #right-panel {
-  height: calc(100vh - 71px);
-}
-
-#top-panel, #middle-top-panel, #middle-bottom-panel, #bottom-panel {
-  width: 100%;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", "Noto", sans-serif;
-}
-
 .panels {
   padding: 0 !important;
   background-color: #fafafa;
 }
 .panels .panel {
+  padding: 0;
   float: left;
 }
 .panels .panel .page-panel {
@@ -471,14 +471,24 @@ html, body {
 .panels .panel .page-panel.open {
   display: block;
 }
-.panels .panel#middle-panel {
-  padding: 0;
+
+#left-panel, #right-panel {
+  background-color: #f4fcff;
 }
-.panels .panel#middle-panel .formula-student-photo {
-  height: calc(100vh - 71px);
-  background-image: url(../images/photos/formula-student.png);
-  background-size: cover;
-  background-position-x: -20px;
+
+#middle-panel {
+  background-color: #f9f9f9;
+}
+
+#top-panel, #middle-top-panel, #middle-bottom-panel, #bottom-panel {
+  width: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Roboto", "Noto", sans-serif;
 }
 
 /*# sourceMappingURL=styles/index.css.map */

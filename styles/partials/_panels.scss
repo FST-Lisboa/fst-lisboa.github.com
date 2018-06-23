@@ -4,16 +4,31 @@
 @import './sponsors';
 @import './contacts';
 
+.panels {
+  padding: 0 !important;
+  background-color: rgb(250, 250, 250);
+
+  .panel {
+    padding: 0;
+    float: left;
+
+    .page-panel {
+      display: none;
+      width: 100%;
+
+      &.open {
+        display: block;
+      }
+    }
+  }
+}
+
 #left-panel, #right-panel {
   background-color: #f4fcff;
 }
 
 #middle-panel {
   background-color: #f9f9f9;
-}
-
-#left-panel, #middle-panel, #right-panel {
-  height: calc(100vh - 71px);
 }
 
 #top-panel, #middle-top-panel, #middle-bottom-panel, #bottom-panel {

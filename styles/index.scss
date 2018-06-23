@@ -5,34 +5,6 @@
 html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: "Roboto", "Noto", sans-serif;
-}
-
-.panels {
-  padding: 0 !important;
-  background-color: rgb(250, 250, 250);
-
-  .panel {
-    float: left;
-
-    .page-panel {
-      display: none;
-      width: 100%;
-
-      &.open {
-        display: block;
-      }
-    }
-
-    &#middle-panel {
-      padding: 0;
-
-      .formula-student-photo {
-        height: calc(100vh - 71px);
-        background-image: url(../images/photos/formula-student.png);
-        background-size: cover;
-        background-position-x: -20px;
-      }
-    }
-  }
 }

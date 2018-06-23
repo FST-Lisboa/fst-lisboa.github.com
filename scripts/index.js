@@ -10,7 +10,9 @@ function init() {
 function changePage(link) {
   if (page == link) { return; };
 
-  if (device == 'mobiel') { toggleMobileMenu() };
+  if (device == 'mobile' && !(link == '' && !document.getElementById('menu').classList.contains('open'))) {
+    toggleMobileMenu()
+  };
 
   setPage(link);
   updateHeader();
