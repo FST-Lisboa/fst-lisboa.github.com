@@ -1,15 +1,16 @@
 header {
-  height: 70px;
-  font-size: 14px;
+  height: 7vh;
+  font-size: 1em;
   color: rgba(17, 17, 17, 0.6);
   border-bottom: 1px solid lightgray;
 
   .home {
     float: left;
-    padding: 8px 0px 8px 25px;
+    padding: 1.4vh 0px 1.4vh 25px;
     width: 20%;
 
     img {
+      height: 4vh;
       cursor: pointer;
     }
   }
@@ -25,7 +26,7 @@ header {
 
       li {
         display: inline-block;
-        margin: 27px 15px;
+        margin: 2.7vh 15px;
         text-transform: uppercase;
         cursor: pointer;
 
@@ -42,7 +43,7 @@ header {
 
           img {
             position: absolute;
-            height: 22px;
+            height: 2.5vh;
             top: 22px;
           }
         }
@@ -79,10 +80,11 @@ header {
   #menu {
     display: none;
     height: 0px;
+    font-size: 2em;
 
     &.open {
       display: block;
-      height: 350px;
+      height: 36vh;
       width: 100%;
       position: absolute;
       margin-top: 70px;
@@ -116,6 +118,7 @@ header {
 
         li {
           margin: 25px 1  5px;
+          font-size: 1.5em;
         }
       }
     }

@@ -312,7 +312,7 @@ function contactsPanelRight() {
   var contactsPanelRight = `
     <div id="contactInfoPanel">
       <h1>` + locales[lang].contacts.title + `</h1>
-      <di class="col-xs-12 info">
+      <div class="col-xs-12 info">
         <p class="title">` + info.address.title + `: </p>
         <p>` + info.address.text + `</p>
         <p class="title">` + info.phone.title + `: </p>

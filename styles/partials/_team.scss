@@ -1,11 +1,17 @@
+#left-panel {
+  .team {
+    height: calc(100vh - 7.2vh);
+  }
+}
+
 #left-panel,
 #top-panel {
   .team {
-    padding: 0px 15px;
+    padding: 50px 15px 0px;
 
     h1 {
       text-align: center;
-      margin: 50px 0px;
+      margin-bottom: 50px;
     }
 
     p {
@@ -21,7 +27,7 @@
 
 #middle-panel {
   .team-list {
-    height: calc(100vh - 71px);
+    height: calc(100vh - 7.2vh);
     overflow: auto;
   }
 }
@@ -33,7 +39,7 @@
     text-align: center;
 
     h2 {
-      font-size: 30px;
+      font-size: 2em;
       margin: 50px 0px;
     }
 
@@ -62,8 +68,10 @@
 
         h4 {
           margin-bottom: 0;
+          font-size: 1em;
         }
         h5 {
+          font-size: 0.8em;
           margin-top: 5px;
           color: rgba(17, 17, 17, 0.6);
           line-height: 1.4;

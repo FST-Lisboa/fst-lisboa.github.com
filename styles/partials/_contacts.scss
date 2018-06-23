@@ -1,14 +1,18 @@
 #middle-panel {
   .contact-map {
-    height: calc(100vh - 74px);
+    height: calc(100vh - 7.6vh);
   }
 }
 
 #right-panel {
-  #contactsPanelRight {
-    #contactFormPanel {
-      padding: 0px 20px;
-    }
+  #contactInfoPanel, #contactFormPanel{
+    height: calc(100vh - 12.3vh);
+  }
+}
+
+#right-panel {
+  #contactsPanelRight, #contactFormPanel {
+    padding: 50px 20px 0px;
   }
 }
 
@@ -17,11 +21,11 @@
     #contactInfoPanel {
       h1 {
         text-align: center;
-        margin: 50px 0px;
+        margin: 0px 0px 50px;
       }
 
       p {
-        font-size: 16px;
+        font-size: 1em;
         padding: 0px 20px;
 
         br {
@@ -49,7 +53,7 @@
 
       h1 {
         text-align: center;
-        margin: 50px 0px;
+        margin-bottom: 50px;
       }
 
       form {
@@ -62,13 +66,13 @@
         input {
           width: 100%;
           margin: 10px 0px;
-          height: 30px;
+          height: 3vh;
         }
 
         textarea {
           width: 100%;
           margin: 10px 0px;
-          height: 125px;
+          height: 13vh;
         }
       }
     }
