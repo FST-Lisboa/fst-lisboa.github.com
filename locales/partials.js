@@ -221,9 +221,54 @@ function teamPanelMiddleTop(){
 
 // Cars Panels
 
-function carsPanelMiddle() {};
+function carsPanelMiddle() {
+  var carList = "";
 
-function carsPanelRight() {};
+  for (var carIndex in locales[lang].cars.models) {
+    var car = locales[lang].cars.models[carIndex];
+
+    carList += "<div class=\"col-sm-12 col-md-12\">";
+
+    carList += "<div class=\"car\"";
+    carList += device == "desktop" ? "onmouseover=\"showCarDetails(" + carIndex + ")\"" : "";
+    carList += " >";
+    if (device == "desktop") {
+      carList += "<h2 class=\"col-sm-12 col-md-12 \">" + car.name +"</h2>";
+    }
+    carList += "<img ";
+    carList += "src=\"./images/photos/cars/" + car.picture + "\" ";
+    carList += "alt=\"" + car.name + "\" ";
+    carList += "title=\"" + car.name + "\">";
+
+    if(device == 'mobile') {
+      carList += carsPanelRight(carIndex);
+    }
+
+    carList += "</div></div>";
+  };
+
+  var carsPanelMiddle = `<div class="car-list">` + carList + `</div>`;
+
+  return carsPanelMiddle;
+};
+
+function carsPanelTop() {
+  return carsPanelMiddle();
+}
+
+function carsPanelRight(carIndex) {
+  var car = locales[lang].cars.models[ carIndex === undefined ? 0 : carIndex];
+
+  var carsPanelRight = "<div id=\"carsPanel\">" +
+                         "<h1>" + car.name + "</h1>" +
+                         "<h3>" + car.description[0].title + "</h3>" +
+                         "<p>" + car.description[0].text + "</p>" +
+                         "<h3>" + car.description[1].title + "</h3>" +
+                         "<p>" + car.description[1].text + "</p>" +
+                       "</div>";
+
+  return carsPanelRight;
+};
 
 // Sponsors Panels
 
@@ -439,6 +484,7 @@ function panels() {
         <div id="homePanelTop" class="page-panel"></div>
         <div id="aboutPanelTop" class="page-panel"></div>
         <div id="teamPanelTop" class="page-panel"></div>
+        <div id="carsPanelTop" class="page-panel"></div>
         <div id="sponsorsPanelTop" class="page-panel"></div>
         <div id="contactsPanelTop" class="page-panel"></div>
       </div>

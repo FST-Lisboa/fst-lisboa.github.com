@@ -118,6 +118,10 @@ function openLink(link) {
   window.open(link, '_blank');
 };
 
+function showCarDetails(carIndex) {
+  document.getElementById('carsPanelRight').innerHTML = carsPanelRight(carIndex);
+};
+
 function showSponsorDetails(levelIndex, sponsorIndex) {
   document.getElementById('sponsorsPanelLeft').innerHTML = sponsorInfo(levelIndex, sponsorIndex);
 };

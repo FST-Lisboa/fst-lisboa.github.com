@@ -88,7 +88,7 @@ header #menu {
 }
 header #menu.open {
   display: block;
-  height: 36vh;
+  height: 51vh;
   width: 100%;
   position: absolute;
   margin-top: 70px;
@@ -386,6 +386,69 @@ header #menu .social-links ul li {
 #middle-top-panel .sponsors-list .sponsors.institutional-partners-sponsor .sponsor {
   margin: 0 15px;
   width: 10%;
+}
+
+#middle-panel .car-list {
+  height: calc(100vh - 7.2vh);
+  overflow: auto;
+}
+
+#right-panel #carsPanel {
+  height: calc(100vh - 7.2vh);
+}
+
+#middle-panel .car-list,
+#top-panel .car-list {
+  text-align: center;
+  padding-bottom: 50px;
+}
+#middle-panel .car-list .car,
+#top-panel .car-list .car {
+  cursor: pointer;
+}
+#middle-panel .car-list .car h2,
+#top-panel .car-list .car h2 {
+  font-size: 2em;
+  margin: 50px 0px;
+}
+#middle-panel .car-list .car img,
+#top-panel .car-list .car img {
+  width: 100%;
+  padding: 0px 50px;
+}
+
+#right-panel #carsPanel,
+#top-panel #carsPanel {
+  padding: 50px 15px 0px;
+}
+#right-panel #carsPanel h1,
+#top-panel #carsPanel h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#right-panel #carsPanel h3,
+#top-panel #carsPanel h3 {
+  text-align: center;
+}
+#right-panel #carsPanel p,
+#top-panel #carsPanel p {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0px 20px;
+}
+#right-panel #carsPanel p br,
+#top-panel #carsPanel p br {
+  line-height: 2;
+}
+
+#top-panel .car-list .car {
+  cursor: default;
+}
+#top-panel .car-list .car img {
+  padding: 0;
+}
+#top-panel .car-list .car #carsPanel {
+  padding: 50px 15px;
 }
 
 #middle-panel .contact-map {

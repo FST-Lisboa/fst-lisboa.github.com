@@ -1,0 +1,78 @@
+#middle-panel {
+  .car-list {
+    height: calc(100vh - 7.2vh);
+    overflow: auto;
+  }
+}
+
+#right-panel {
+  #carsPanel {
+    height: calc(100vh - 7.2vh);
+  }
+}
+
+#middle-panel,
+#top-panel {
+
+  .car-list {
+    text-align: center;
+    padding-bottom: 50px;
+
+    .car {
+      cursor: pointer;
+
+      h2 {
+        font-size: 2em;
+        margin: 50px 0px;
+      }
+
+      img {
+        width: 100%;
+        padding: 0px 50px;
+      }
+    }
+  }
+}
+
+#right-panel,
+#top-panel {
+
+  #carsPanel {
+    padding: 50px 15px 0px;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+      text-justify: inter-word;
+      padding: 0px 20px;
+
+      br {
+        line-height: 2;
+      }
+    }
+  }
+}
+
+#top-panel {
+  .car-list {
+    .car {
+      cursor: default;
+
+      img {
+        padding: 0;
+      }
+
+      #carsPanel {
+        padding: 50px 15px;        
+      }
+    }
+  }
+}
