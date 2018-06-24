@@ -128,12 +128,34 @@ function aboutPanelRight() {
   var aboutPanelRight = `
     <div class="about">
       <h1>` + formulaStudent.title + `</h1>
-      <p>` + formulaStudent.text + `</p>
+      <div id="formulaStudentInfo">
+        ` + formulaStudentInfoPanel() + `
+      </div>
+      <div id="piechart"></div>
     </div>
   `;
 
   return aboutPanelRight;
 };
+
+function categoryInfoPanel(event) {
+  var category = [1,2,3].includes(event.row) ? 'staticEvents' : 'dynamicEvents'
+  var categoryInfo = locales[lang].about.formulaStudent.categories[category];
+
+  var categoryInfoPanel = `
+    <h2>` + categoryInfo.title +`</h2>
+    <p> ` + categoryInfo.text + `</p>
+  `
+  return categoryInfoPanel;
+};
+
+function formulaStudentInfoPanel() {
+  var formulaStudent = locales[lang].about.formulaStudent;
+
+  var categoryInfoPanel = "<p>" + formulaStudent.text + "</p>";
+
+  return categoryInfoPanel;
+}
 
 function aboutPanelTop() {
   var aboutPanelTop = `
@@ -160,7 +182,7 @@ function aboutPanelMiddleBottom() {
 };
 
 function aboutPanelBottom() {
-  return aboutPanelLeft();
+  return aboutPanelRight();
 };
 
 // Team Panels

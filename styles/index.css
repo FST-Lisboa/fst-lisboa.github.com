@@ -167,6 +167,16 @@ header #menu .social-links ul li {
   height: calc(100vh - 7.2vh);
 }
 
+#right-panel .about h2 {
+  text-align: center;
+}
+#right-panel .about #piechart {
+  width: 95%;
+  height: 280px;
+  position: absolute;
+  bottom: 5px;
+}
+
 #left-panel .about, #right-panel .about, #middle-top-panel .about, #bottom-panel .about {
   padding: 50px 15px 0px;
 }
