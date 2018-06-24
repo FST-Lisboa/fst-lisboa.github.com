@@ -327,6 +327,183 @@ var locales = {
         },
       ]
     },
+    "cars": {
+      "title": "Cars",
+      "models": [
+        {
+          "name": "FST 07e",
+          "picture": "FST 07e.jpg",
+          "description": [
+            {
+              "title": "Specifications",
+              "text": `
+                <b>Chassis: </b> Pre-preg Carbon fibre monocoque <br>
+                <b>Power: </b> 4 permanent magnet AC motors providing 175hp <br>
+                <b>Weight: </b> 220kg <br>
+                <b>Top speed: </b> 110 km/h <br>
+                <b>0-100km/h: </b> 2.3s
+              `,
+            },
+            {
+              "title": "Achievements",
+              "text": `
+                9th place Overall – Czech Republic (2017) <br>
+                1st place Design – Czech Republic (2017) <br>
+                1st place Cost &amp; Sustainability – Czech Republic (2017) <br>
+                17th place Overall – Germany (2017) <br>
+                5th place Design – Germany (2017) <br>
+                17th place Overall – Spain (2017)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 06e",
+          "picture": "FST 06e.jpg",
+          "description": [
+            {
+              "title": "Specifications",
+              "text": `
+                <b>Chassis: </b> Pre-preg Carbon fibre monocoque <br>
+                <b>Power: </b> 2 permanent magnet AC motors providing 135hp <br>
+                <b>Weight: </b> 280kg <br>
+                <b>Top speed: </b> 150 km/h <br>
+                <b>0-100km/h: </b> 2.8s
+              `,
+            },
+            {
+              "title": "Achievements",
+              "text": `
+                3rd place Electric - Czech Republic (2016) <br>
+                1st place Business- Czech Republic (2016) <br>
+                7th place Overall – Italy (2015) <br>
+                2nd place Design – Italy (2015) <br>
+                18th place Overall – Spain (2015)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 05e",
+          "picture": "FST 05e.jpg",
+          "description": [
+            {
+              "title": "Specifications",
+              "text": `
+                <b>Chassis: </b> Carbon fibre monocoque <br>
+                <b>Power: </b> 2 permanent magnet AC motors providing 87hp <br>
+                <b>Weight: </b> 220kg <br>
+                <b>Top speed: </b> 120 km/h <br>
+                <b>0-100km/h: </b> 2.8s
+              `,
+            },
+            {
+              "title": "Achievements",
+              "text": `
+                2nd place Business Plan: Hungary (2013) <br>
+                2nd place Design: Spain (2013) <br>
+                1st place Class 2: United Kingdom (2012)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 04e",
+          "picture": "FST 04e.jpg",
+          "description": [
+            {
+              "title": "Specifications",
+              "text": `
+                <b>Chassis: </b> AISI 4130 steel space frame <br>
+                <b>Power: </b> 2 DC motors providing 76hp <br>
+                <b>Weight: </b> 300kg <br>
+                <b>Top speed: </b> 100 km/h <br>
+                <b>0-100km/h: </b> 4s
+              `,
+            },
+            {
+              "title": "Achievements",
+              "text": `
+                2nd place Class 1: Spain (2011) <br>
+                13th place Class 1: Germany (2011) <br>
+                1st place Class 2: United Kingdom (2010)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 03",
+          "picture": "FST 03.jpg",
+          "description": [
+            {
+              "title": "Specifications",
+              "text": `
+                <b>Chassis: </b> AISI 4130 steel space frame <br>
+                <b>Power: </b> Honda CBR 600 F4i engine providing 78hp <br>
+                <b>Weight: </b> 225kg <br>
+                <b>Top speed: </b> 170 km/h <br>
+                <b>0-100km/h: </b> 3.6s
+              `,
+            },
+            {
+              "title": "Achievements",
+              "text": `
+                36º place Class 1: Germany (2008) <br>
+                2nd place Class 2: United Kingdom (2007) <br>
+                1st place Class 3: United Kingdom (2006)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 02",
+          "picture": "FST 02.jpg",
+          "description": [
+            {
+              "title": "Specifications",
+              "text": `
+                <b>Chassis: </b> Tubular em aço de liga AISI 4130 <br>
+                <b>Power: </b> Honda CBR 600 F4i engine providing 80hp <br>
+                <b>Weight: </b> 278kg <br>
+                <b>Top speed: </b> 170 km/h <br>
+                <b>0-100km/h: </b> 2.9s
+              `,
+            },
+            {
+              "title": "Achievements",
+              "text": `
+                34th place Class 1: United Kingdom (2006) <br>
+                2nd place Class 2: United Kingdom (2005)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 01",
+          "picture": "FST 01.jpg",
+          "description": [
+            {
+              "title": "Specifications",
+              "text": `
+                <b>Chassis: </b> AISI 4130 steel space frame <br>
+                <b>Power: </b> Honda CBR F4i engine providing 75hp <br>
+                <b>Weight: </b> 260kg <br>
+                <b>Top speed: </b> 170 km/h <br>
+                <b>0-100km/h: </b> 3.9s
+              `,
+            },
+            {
+              "title": "Achievements",
+              "text": `
+                4th place Class 1(200): United Kingdom (2005) <br>
+                51st place Class 1: United Kingdom (2004) <br>
+                4th place Class 2: United Kingdom (2003)
+              `,
+            }
+          ],
+        },
+      ]
+    },
     "sponsors": {
       "title": "Sponsors",
       "text": `
@@ -1154,6 +1331,184 @@ var locales = {
               "picture": "DiogoPereira.png",
             },
           ]
+        },
+      ]
+    },
+    "cars": {
+      "title": "Cars",
+      "models": [
+        {
+          "name": "FST 07e",
+          "picture": "FST 07e.jpg",
+          "description": [
+            {
+              "title": "Especificações",
+              "text": `
+                <b>Chassis: </b> Monocoque em Fibra de Carbono Pré-Impregnada <br>
+                <b>Potência: </b> 175cv (4 motores AC de íman permanente) <br>
+                <b>Peso: </b> 220kg <br>
+                <b>Velocidade Máxima: </b> 110 km/h <br>
+                <b>0-100km/h: </b> 2.3s
+              `,
+            },
+            {
+              "title": "Resultados",
+              "text": `
+                9º lugar Geral – República Checa (2017) <br>
+                1º lugar Design – República Checa (2017) <br>
+                1º lugar Cost & Sustainability – Czech Republic (2017) <br>
+                17º lugar Geral – Alemanha (2017) <br>
+                5º lugar Design – Alemanha (2017) <br>
+                17º lugar Geral – Espanha (2017)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 06e",
+          "picture": "FST 06e.jpg",
+          "description": [
+            {
+              "title": "Especificações",
+              "text": `
+                <b>Chassis: </b> Monocoque em Fibra de Carbono Pré-Impregnada <br>
+                <b>Potência: </b> 2 motores AC de íman permanente com 135cv <br>
+                <b>Peso: </b> 280kg <br>
+                <b>Velocidade Máxima: </b> 150 km/h <br>
+                <b>0-100km/h: </b> 2.8s
+              `,
+            },
+            {
+              "title": "Resultados",
+              "text": `
+                3º lugar na Categoria Elétrico - República Checa (2016) <br>
+                1º lugar Plano de Negócios - República Checa (2016) <br>
+                7º lugar Geral – Itália (2015) <br>
+                2º lugar Design – Itália (2015) <br>
+                18º lugar Geral – Espanha (2015)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 05e",
+          "picture": "FST 05e.jpg",
+          "description": [
+            {
+              "title": "Especificações",
+              "text": `
+                <b>Chassis: </b> Monocoque em Fibra de Carbono <br>
+                <b>Potência: </b> 2 motores AC de íman permanente com 87cv <br>
+                <b>Peso: </b> 220kg <br>
+                <b>Velocidade Máxima: </b> 120 km/h <br>
+                <b>0-100km/h: </b> 2.8s
+              `,
+            },
+            {
+              "title": "Resultados",
+              "text": `
+                2º lugar Plano de Negócios: Hungria (2013) <br>
+                3º lugar Design: Espanha (2013) <br>
+                1º lugar Classe 2: Reino Unido (2012)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 04e",
+          "picture": "FST 04e.jpg",
+          "description": [
+            {
+              "title": "Especificações",
+              "text": `
+                <b>Chassis: </b> Tubular em aço de liga AISI 4130 <br>
+                <b>Potência: </b> 2 motores DC com 76cv <br>
+                <b>Peso: </b> 300kg <br>
+                <b>Velocidade Máxima: </b> 100 km/h <br>
+                <b>0-100km/h: </b> 4s
+              `,
+            },
+            {
+              "title": "Resultados",
+              "text": `
+                2º lugar Classe 1: Espanha (2011) <br>
+                13º lugar Classe 1: Alemanha (2011) <br>
+                1º lugar Classe 2: Reino Unido (2010)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 03",
+          "picture": "FST 03.jpg",
+          "description": [
+            {
+              "title": "Especificações",
+              "text": `
+                <b>Chassis: </b> Tubular em aço de liga AISI 4130 <br>
+                <b>Potência: </b> motor Honda CBR 600 F4i com 78cv <br>
+                <b>Peso: </b> 225kg <br>
+                <b>Velocidade Máxima: </b> 170 km/h <br>
+                <b>0-100km/h: </b> 3.6s
+              `,
+            },
+            {
+              "title": "Resultados",
+              "text": `
+                36º lugar Classe 1: Alemanha (2008) <br>
+                2º lugar Classe 2: Reino Unido (2007) <br>
+                1º lugar Classe 3: Reino Unido (2006)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 02",
+          "picture": "FST 02.jpg",
+          "description": [
+            {
+              "title": "Especificações",
+              "text": `
+                <b>Chassis: </b> Tubular em aço de liga AISI 4130 <br>
+                <b>Potência: </b> motor Honda CBR 600 F4i com 80cv <br>
+                <b>Peso: </b> 278kg <br>
+                <b>Velocidade Máxima: </b> 170 km/h <br>
+                <b>0-100km/h: </b> 2.9s
+              `,
+            },
+            {
+              "title": "Resultados",
+              "text": `
+                4º lugar Classe 1(200): Reino Unido (2005) <br>
+                51º lugar Classe 1: Reino Unido (2004) <br>
+                4º lugar Classe 2: Reino Unido (2003)
+              `,
+            }
+          ],
+        },
+        {
+          "name": "FST 01",
+          "picture": "FST 01.jpg",
+          "description": [
+            {
+              "title": "Especificações",
+              "text": `
+                <b>Chassis: </b> Tubular em aço de liga AISI 4130 <br>
+                <b>Potência: </b> motor Honda CBR F4i com 75cv <br>
+                <b>Peso: </b> 260kg <br>
+                <b>Velocidade Máxima: </b> 170 km/h <br>
+                <b>0-100km/h: </b> 3.9s
+              `,
+            },
+            {
+              "title": "Resultados",
+              "text": `
+                4º lugar Classe 1(200): Reino Unido (2005) <br>
+                51º lugar Classe 1: Reino Unido (2004) <br>
+                4º lugar Classe 2: Reino Unido (2003)
+              `,
+            }
+          ],
         },
       ]
     },
