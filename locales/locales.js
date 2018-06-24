@@ -113,6 +113,16 @@ var locales = {
               "position": "Responsável patrocínios",
               "picture": "HenriqueMotta.png",
             },
+            {
+              "name": "Alexandra Pereira",
+              "position": "Logística",
+              "picture": "AlexandraPereira.png",
+            },
+            {
+              "name": "Mariana Sequeira",
+              "position": "Comunicação e Imagem",
+              "picture": "MarianaSequeira.png",
+            },
           ]
         },
         {
@@ -345,7 +355,7 @@ var locales = {
             {
               "title": "NovaBase",
               "image": "novabase.png",
-              "url": "http://www.novabase.pt/pt",
+              "url": "http://www.novabase.pt/en",
               "info": `
                 Novabase is the first company, in Portugal, to achieve the IPQ ( Quality Portuguese
                 Institute) certification, in development software market. Since its foundation,
@@ -359,7 +369,7 @@ var locales = {
             {
               "title": "Técnico Lisboa",
               "image": "tecnico.png",
-              "url": "https://tecnico.ulisboa.pt/pt/",
+              "url": "https://tecnico.ulisboa.pt/en/",
               "info": `
                 Founded in 1911, the Instituto Superior Técnico (IST) has been contributing,
                 throughout many years, to the development and promotion of a higher education of
@@ -393,7 +403,7 @@ var locales = {
             {
               "title": "Edaetech",
               "image": "edaetech.png",
-              "url": "http://www.edaetech.pt/",
+              "url": "http://www.edaetech.pt/?lg=2",
               "info": `
                 EDAETECH has emerged as a company capable of providing engineering services,
                 with special approach to automobile industry. Since the project and conception
@@ -405,30 +415,13 @@ var locales = {
               `,
             },
             {
-              "title": "Primetec",
-              "image": "primetec.png",
-              "url": "http://primetec.pt/",
-              "info": ``,
-            },
-            {
               "title": "SKF",
               "image": "skf.png",
-              "url": "http://www.skf.com/pt/our-company/skf-portugal/index.html",
+              "url": "http://www.skf.com/uk/our-company/index.html",
               "info": "",
             },
             {
-              "title": "Opel",
-              "image": "opel.png",
-              "url": "http://www.opel.pt/",
-              "info": `
-                Opel is one of the main automobile constructers in Europe. Its mission aims to a
-                constant and growing adaptation to the recent technologies in its products and
-                services, in order to give an answer to the major number of people and its own
-                needs.
-              `
-            },
-            {
-              "title": "Tecdigital",
+              "title": "TECDIGITAL",
               "image": "tecdigital.png",
               "url": "http://www.tecdigital.pt/",
               "info": `
@@ -441,6 +434,44 @@ var locales = {
                 monocoque, nee of the chassis and aerodynamic pack, and also milling processes.
               `,
             },
+            {
+              "title": "SANTA CASA",
+              "image": "csml-fundacao-do-desporto.png",
+              "url": "http://www.scml.pt/",
+              "info": `
+                SCML – Santa casa da Misericórdia of Lisbon and the Foundation of Sport foment the
+                education, the development of knowledge and skills, and activities for innovation,
+                quality and social security. <br>
+                For this purpose the promotion of protocols with the aim of incentive and
+                projection in international evaluations leads to the work of the team, allowing the
+                establishment of challenges and overwhelming, not only personal, but also
+                collective.
+              `
+            },
+            {
+              "title": "Opel",
+              "image": "opel.png",
+              "url": "https://www.opel.com/",
+              "info": `
+                Opel is one of the main automobile constructers in Europe. Its mission aims to a
+                constant and growing adaptation to the recent technologies in its products and
+                services, in order to give an answer to the major number of people and its own
+                needs.
+              `
+            },
+            {
+              "title": "TEi Composites",
+              "image": "tei-composites.png",
+              "url": "http://www.teicomposite.com/",
+              "info": `
+                In the first years of existence, Tei Composites dedicated to the production of glass
+                fiber tubes for the electric and electronic industry. <br>
+                The recognition for the quality and innovation of the products leads them to became
+                the first worldwide lider in the building of composites tissues, improving in growth
+                and technical development, a step forward in order to adapt to the needs and demands
+                of the worldwide market.
+              `
+            },
           ],
         },
         {
@@ -450,12 +481,12 @@ var locales = {
             {
               "title": "Ramada Aços",
               "image": "ramada-aços.png",
-              "url": "http://www.ramada.pt/pt/",
+              "url": "http://www.ramada.pt/en/",
             },
             {
               "title": "PECOl",
               "image": "pecol.png",
-              "url": "https://www.pecol.pt/",
+              "url": "https://www.pecol.pt/en/",
             },
             {
               "title": "TAP Maintenance & Engineering",
@@ -465,32 +496,12 @@ var locales = {
             {
               "title": "CODI",
               "image": "codi.png",
-              "url": "https://www.codi.pt/",
+              "url": "https://www.codi.pt/en/codi-en/",
             },
             {
               "title": "Milwaukee",
               "image": "milwaukee.png",
-              "url": "https://pt.milwaukeetool.eu/",
-            },
-            {
-              "title": "4x4 Multi Trabalhos",
-              "image": "multi-trabalhos.png",
-              "url": "http://www.4x4multitrabalhos.com/",
-            },
-            {
-              "title": "Grupo Moldoeste",
-              "image": "moldoeste.png",
-              "url": "https://www.grupomoldoeste.com/#moldoeste",
-            },
-            {
-              "title": "CONCEPTLASER",
-              "image": "conceptlaser.png",
-              "url": "https://pt.milwaukeetool.eu/",
-            },
-            {
-              "title": "Robbialac",
-              "image": "robbialac.png",
-              "url": "http://www.tintasrobbialac.pt/institucional.aspx",
+              "url": "https://www.milwaukeetool.eu/",
             },
             {
               "title": "TJ MOLDES",
@@ -498,24 +509,39 @@ var locales = {
               "url": "http://www.tj-moldes.pt/",
             },
             {
-              "title": "FARMI",
-              "image": "farmi.png",
-              "url": "http://www.farmi.pt/",
-            },
-            {
-              "title": "MELASTA",
-              "image": "melasta.png",
-              "url": "http://www.melasta.com/",
-            },
-            {
               "title": "RMC Engrenagem",
               "image": "rmc.png",
-              "url": "http://www.rmc.com.pt/",
+              "url": "http://www.rmc.com.pt/home-en/",
             },
             {
-              "title": "OPTIMUM",
-              "image": "optimum.png",
-              "url": "https://www.optimum-machines.com/",
+              "title": "4x4 Multi Trabalhos",
+              "image": "multi-trabalhos.png",
+              "url": "http://www.4x4multitrabalhos.com/",
+            },
+            {
+              "title": "Robbialac",
+              "image": "robbialac.png",
+              "url": "http://www.tintasrobbialac.pt/institucional.aspx",
+            },
+            {
+              "title": "RAPIDTOOL",
+              "image": "rapidtool.png",
+              "url": "http://www.rapidtool.pt/en/",
+            },
+            {
+              "title": "GoodFellow",
+              "image": "goodfellow.png",
+              "url": "http://www.goodfellow.com/",
+            },
+            {
+              "title": "Primetec",
+              "image": "primetec.png",
+              "url": "http://primetec.pt/",
+            },
+            {
+              "title": "FARMI",
+              "image": "farmi.png",
+              "url": "http://www.farmi.pt/homeen",
             },
             {
               "title": "Emmad",
@@ -527,6 +553,46 @@ var locales = {
               "image": "airtech.png",
               "url": "http://www.airtechintl.com/",
             },
+            {
+              "title": "EIT-InnoEnergy",
+              "image": "eit-innoenergy.png",
+              "url": "http://www.innoenergy.com/",
+            },
+            {
+              "title": "RTC",
+              "image": "rtc.png",
+              "url": "http://www.rtc-tec.com/",
+            },
+            {
+              "title": "Meusburguer",
+              "image": "meusburger.png",
+              "url": "https://www.meusburger.com/",
+            },
+            {
+              "title": "MELASTA",
+              "image": "melasta.png",
+              "url": "http://www.melasta.com/",
+            },
+            {
+              "title": "Stratasys",
+              "image": "stratasys.png",
+              "url": "http://www.stratasys.com/en",
+            },
+            {
+              "title": "Altair",
+              "image": "altair.png",
+              "url": "https://www.altair.com/",
+            },
+            {
+              "title": "Bos suspension",
+              "image": "bos-suspension.png",
+              "url": "http://www.bos-suspension.com/",
+            },
+            {
+              "title": "Filkemp",
+              "image": "filkemp.png",
+              "url": "http://www.filkemp.com/",
+            },
           ],
         },
         {
@@ -534,94 +600,24 @@ var locales = {
           "class": "bronze",
           "sponsors": [
             {
-              "title": "Duroplast-Chemie",
-              "image": "duroplastchemie.png",
-              "url": "https://www.duroplast.com/en/duroplast.html",
-            },
-            {
-              "title": "CHOMARAT",
-              "image": "chomarat.png",
-              "url": "http://chomarat.com/en/",
-            },
-            {
-              "title": "BBE",
-              "image": "bbe.png",
-              "url": "http://bbe.pt/pt/",
-            },
-            {
-              "title": "RAPIDTOOL",
-              "image": "rapidtool.png",
-              "url": "http://www.rapidtool.pt/pt/",
-            },
-            {
-              "title": "AMK",
-              "image": "amk.png",
-              "url": "https://amk-group.com/en",
-            },
-            {
-              "title": "bluecaPe",
-              "image": "bluecape.png",
-              "url": "http://joomla.bluecape.com.pt/",
-            },
-            {
-              "title": "Lenord+Bauer",
-              "image": "lenord+bauer.png",
-              "url": "https://www.lenord.com/",
-            },
-            {
-              "title": "Methode",
-              "image": "methode.png",
-              "url": "http://www.methode.com/",
-            },
-            {
-              "title": "GoodFellow",
-              "image": "goodfellow.png",
-              "url": "http://www.goodfellow.com/",
-            },
-            {
-              "title": "INDASA",
-              "image": "indasa.png",
-              "url": "https://www.indasa-abrasives.com/pt/pt/",
-            },
-            {
-              "title": "EID",
-              "image": "eid.png",
-              "url": "http://www.eid.pt/",
-            },
-            {
               "title": "IPG",
               "image": "ipg.png",
               "url": "https://ipg-automotive.com/",
             },
             {
-              "title": "OCOOL",
-              "image": "ocool.png",
-              "url": "https://www.alphacool.com/",
-            },
-            {
-              "title": "CD-adapco",
-              "image": "cd-adapco.png",
-              "url": "https://mdx.plm.automation.siemens.com/",
-            },
-            {
-              "title": "Coroplast",
-              "image": "coroplast.png",
-              "url": "https://www.coroplast.de/en/",
-            },
-            {
-              "title": "GECO",
-              "image": "geco.png",
-              "url": "https://geco-moldes.pt/",
-            },
-            {
-              "title": "Igus",
-              "image": "igus.png",
-              "url": "https://www.igus.pt/",
+              "title": "Duroplast-Chemie",
+              "image": "duroplastchemie.png",
+              "url": "https://www.duroplast.com/en/duroplast.html",
             },
             {
               "title": "3M",
               "image": "3m.png",
-              "url": "https://www.3m.com.pt/3M/pt_PT/fabricacao-pt/",
+              "url": "https://www.3m.co.uk/3M/en_GB/company-uk/",
+            },
+            {
+              "title": "INDASA",
+              "image": "indasa.png",
+              "url": "https://www.indasa-abrasives.com/pt/en/",
             },
             {
               "title": "Sika",
@@ -629,14 +625,69 @@ var locales = {
               "url": "https://prt.sika.com/",
             },
             {
-              "title": "Laser Tig",
-              "image": "laser-tig.png",
-              "url": "http://www.lasertig.com/",
+              "title": "Igus",
+              "image": "igus.png",
+              "url": "https://www.igus.co.uk",
             },
             {
-              "title": "EIT-InnoEnergy",
-              "image": "eit-innoenergy.png",
-              "url": "http://www.innoenergy.com/",
+              "title": "AMK",
+              "image": "amk.png",
+              "url": "https://amk-group.com/en",
+            },
+            {
+              "title": "Methode",
+              "image": "methode.png",
+              "url": "http://www.methode.com/",
+            },
+            {
+              "title": "EID",
+              "image": "eid.png",
+              "url": "http://www.eid.pt/",
+            },
+            {
+              "title": "Mouser",
+              "image": "mouser.png",
+              "url": "https://www.mouser.co.uk/",
+            },
+            {
+              "title": "Schroth racing",
+              "image": "schroth-racing.png",
+              "url": "https://www.schrothracing.com/",
+            },
+            {
+              "title": "OCOOL",
+              "image": "ocool.png",
+              "url": "https://www.alphacool.com/",
+            },
+            {
+              "title": "Rohde & Schwartz",
+              "image": "rohde-and-schwartz.png",
+              "url": "https://www.rohde-schwarz.com/uk/",
+            },
+            {
+              "title": "FriendLaser",
+              "image": "friendLaser.png",
+              "url": "http://www.friendlaser.pt/",
+            },
+            {
+              "title": "ST Sensor Technology",
+              "image": "st.png",
+              "url": "https://www.sensors.co.uk/",
+            },
+            {
+              "title": "Traco Power",
+              "image": "traco-power.png",
+              "url": "https://www.tracopower.com/",
+            },
+            {
+              "title": "Böllhoff",
+              "image": "bollhoff.png",
+              "url": "http://www.bollhoff.co.uk/en/uk.php",
+            },
+            {
+              "title": "KTR",
+              "image": "ktr.png",
+              "url": "https://www.ktr.com/us/",
             },
           ]
         },
@@ -650,29 +701,9 @@ var locales = {
               "url": "https://www.sportgraphics.com/",
             },
             {
-              "title": "Calspan",
-              "image": "calspan.png",
-              "url": "https://www.calspan.com/",
-            },
-            {
-              "title": "Easycomposites",
-              "image": "easycomposites.png",
-              "url": "http://www.easycomposites.co.uk/",
-            },
-            {
               "title": "BENDER",
               "image": "bender.png",
               "url": "https://www.bender.org/",
-            },
-            {
-              "title": "Radiadores Cavaleiro",
-              "image": "radiadores-cavaleiro.png",
-              "url": "http://radiadorescavaleiro.pt/",
-            },
-            {
-              "title": "KIP",
-              "image": "kip.png",
-              "url": "http://www.kip.pt/",
             },
             {
               "title": "REBELCO",
@@ -680,9 +711,54 @@ var locales = {
               "url": "http://www.rebelco.pt/",
             },
             {
+              "title": "Radiadores Cavaleiro",
+              "image": "radiadores-cavaleiro.png",
+              "url": "http://radiadorescavaleiro.pt/",
+            },
+            {
+              "title": "Araújo & Silva",
+              "image": "araujo-e-silva.png",
+              "url": "http://www.araujosilva.pt/index-en.html",
+            },
+            {
+              "title": "KIP",
+              "image": "kip.png",
+              "url": "http://www.kip.pt/",
+            },
+            {
               "title": "GGS Global Graphic Solutions",
               "image": "ggs.png",
               "url": "http://www.ggs.com.pt/",
+            },
+            {
+              "title": "cria TOPO",
+              "image": "cria-topo.png",
+              "url": "https://criatopo.com/",
+            },
+            {
+              "title": "PartsBox",
+              "image": "partsbox.png",
+              "url": "https://partsbox.io/",
+            },
+            {
+              "title": "Altium",
+              "image": "altium.png",
+              "url": "https://www.altium.com/",
+            },
+            {
+              "title": "IDEC",
+              "image": "idec.png",
+              "url": "http://www.idec.com/",
+            },
+            {
+              "title": "Trelleborg",
+              "image": "trelleborg.png",
+              "url": "http://www.trelleborg.com/en",
+            },
+            {
+              "title": "Alucore",
+              "image": "alucore.png",
+              "url": "https://www.alucobond.com/alucore-downloads.html",
             },
           ]
         },
@@ -706,11 +782,6 @@ var locales = {
               "url": "https://www.iefp.pt/",
             },
             {
-              "title": "Viver Olivais",
-              "image": "viver-olivais.png",
-              "url": "http://www.jf-olivais.pt/",
-            },
-            {
               "title": "Caixa Geral de Depósitos",
               "image": "caixa.png",
               "url": "https://www.cgd.pt/",
@@ -719,6 +790,11 @@ var locales = {
               "title": "BPI",
               "image": "bpi.png",
               "url": "https://www.bancobpi.pt",
+            },
+            {
+              "title": "Santander",
+              "image": "santander.png",
+              "url": "https://www.santandertotta.pt/pt_PT/Particulares.html?leng=en_GB",
             },
           ]
         },
@@ -854,7 +930,7 @@ var locales = {
           "members": [
             {
               "name": "Henrique Karas",
-              "position": "Team Leader",
+              "position": "Lider de equipa",
               "picture": "HenriqueKaras.png",
             },
             {
@@ -867,6 +943,16 @@ var locales = {
               "position": "Responsável patrocínios",
               "picture": "HenriqueMotta.png",
             },
+            {
+              "name": "Alexandra Pereira",
+              "position": "Logística",
+              "picture": "AlexandraPereira.png",
+            },
+            {
+              "name": "Mariana Sequeira",
+              "position": "Comunicação e Imagem",
+              "picture": "MarianaSequeira.png",
+            },
           ]
         },
         {
@@ -874,7 +960,7 @@ var locales = {
           "members": [
             {
               "name": "Ricardo Ferreira",
-              "position": "Team Leader",
+              "position": "Lider de equipa",
               "picture": "RicardoFerreira.png",
             },
             {
@@ -904,7 +990,7 @@ var locales = {
           "members": [
             {
               "name": "João Formiga",
-              "position": "Team Leader",
+              "position": "Lider de equipa",
               "picture": "JoaoFormiga.png",
             },
             {
@@ -939,7 +1025,7 @@ var locales = {
           "members": [
             {
               "name": "Migdon Batalha",
-              "position": "Team Leader",
+              "position": "Lider de equipa",
               "picture": "MigdonBatalha.png",
             },
             {
@@ -964,7 +1050,7 @@ var locales = {
           "members": [
             {
               "name": "Rui Loureiro",
-              "position": "Team Leader",
+              "position": "Lider de equipa",
               "picture": "RuiLoureiro.png",
             },
             {
@@ -989,7 +1075,7 @@ var locales = {
           "members": [
             {
               "name": "Bruno Fernandes",
-              "position": "Team Leader",
+              "position": "Lider de equipa",
               "picture": "BrunoFernandes.png",
             },
             {
@@ -1034,7 +1120,7 @@ var locales = {
           "members": [
             {
               "name": "Rodrigo Ramos",
-              "position": "Team Leader",
+              "position": "Lider de equipa",
               "picture": "RodrigoRamos.png",
             },
             {
@@ -1163,12 +1249,6 @@ var locales = {
               `
             },
             {
-              "title": "Primetec",
-              "image": "primetec.png",
-              "url": "http://primetec.pt/",
-              "info": ``,
-            },
-            {
               "title": "SKF",
               "image": "skf.png",
               "url": "http://www.skf.com/pt/our-company/skf-portugal/index.html",
@@ -1181,6 +1261,35 @@ var locales = {
                 Apoia a equipa desde o seu começo, oferecendo sempre o melhor serviço adaptado às
                 necessidades de cada projeto, quer a nível de apoio técnico e decisão, como também
                 de matérias, como é o caso dos rolamentos.
+              `
+            },
+            {
+              "title": "Tecdigital",
+              "image": "tecdigital.png",
+              "url": "http://www.tecdigital.pt/",
+              "info": `
+                A TECDIGITAL é uma empresa especializada em maquinação 3D. Dispõe de serviços de
+                maquinação de diversos tipos de materiais para as várias áreas de engenharia,
+                nomeadamente indústria de Moldes, Cunhos e Cortantes, Mecânica Geral, Projetos de
+                Arquitetura, etc., que se caracterizam pela necessidade de utilização de tecnologia
+                tridimensional. <br>
+                A preocupação e qualidade dos seus serviços é determinante para a equipa, sendo esta
+                a empresa fornecedora de MDF, material utilizado nos moldes positivos do monocoque,
+                nariz do chassis e pack aerodinâmico, e ainda processos de fresagem.
+              `
+            },
+            {
+              "title": "SCML/Fundação do Desporto",
+              "image": "csml-fundacao-do-desporto.png",
+              "url": "http://www.scml.pt/",
+              "info": `
+                A Santa Casa da Misericórdia de Lisboa e a Fundação do Desporto fomentam o ensino, o
+                desenvolvimento de conhecimento e capacidades, e a realização de atividades para a
+                inovação, qualidade e segurança social. <br>
+                Por este motivo, a promoção de protocolos que visam o incentivo e projeção em provas
+                internacionais vai de encontro ao trabalho que é desenvolvido pela equipa,
+                permitindo assim o estabelecimento de desafios e superação, tanto pessoal como
+                coletiva.
               `
             },
             {
@@ -1197,18 +1306,15 @@ var locales = {
               `
             },
             {
-              "title": "Tecdigital",
-              "image": "tecdigital.png",
-              "url": "http://www.tecdigital.pt/",
+              "title": "TEi Composites",
+              "image": "tei-composites.png",
+              "url": "http://www.teicomposite.com/",
               "info": `
-                A TECDIGITAL é uma empresa especializada em maquinação 3D. Dispõe de serviços de
-                maquinação de diversos tipos de materiais para as várias áreas de engenharia,
-                nomeadamente indústria de Moldes, Cunhos e Cortantes, Mecânica Geral, Projetos de
-                Arquitetura, etc., que se caracterizam pela necessidade de utilização de tecnologia
-                tridimensional. <br>
-                A preocupação e qualidade dos seus serviços é determinante para a equipa, sendo esta
-                a empresa fornecedora de MDF, material utilizado nos moldes positivos do monocoque,
-                nariz do chassis e pack aerodinâmico, e ainda processos de fresagem.
+                Nos primeiros anos da sua criação, a TEi Composites dedicava-se à produção de tubos
+                de fibra de vidro para a indústria elétrica e eletrónica. O reconhecimento pela
+                qualidade e inovação dos seus produtos levou a que rapidamente se tenha tornado
+                líder mundial na fabricação de tecidos compósitos, apostando no crescimento e avanço
+                de técnicas que se adaptam às necessidades e exigências do mercado mundial.
               `
             },
           ],
@@ -1243,39 +1349,9 @@ var locales = {
               "url": "https://pt.milwaukeetool.eu/",
             },
             {
-              "title": "4x4 Multi Trabalhos",
-              "image": "multi-trabalhos.png",
-              "url": "http://www.4x4multitrabalhos.com/",
-            },
-            {
-              "title": "Grupo Moldoeste",
-              "image": "moldoeste.png",
-              "url": "https://www.grupomoldoeste.com/#moldoeste",
-            },
-            {
-              "title": "CONCEPTLASER",
-              "image": "conceptlaser.png",
-              "url": "https://pt.milwaukeetool.eu/",
-            },
-            {
-              "title": "Robbialac",
-              "image": "robbialac.png",
-              "url": "http://www.tintasrobbialac.pt/institucional.aspx",
-            },
-            {
               "title": "TJ MOLDES",
               "image": "tj-moldes.png",
               "url": "http://www.tj-moldes.pt/",
-            },
-            {
-              "title": "FARMI",
-              "image": "farmi.png",
-              "url": "http://www.farmi.pt/",
-            },
-            {
-              "title": "MELASTA",
-              "image": "melasta.png",
-              "url": "http://www.melasta.com/",
             },
             {
               "title": "RMC Engrenagem",
@@ -1283,9 +1359,34 @@ var locales = {
               "url": "http://www.rmc.com.pt/",
             },
             {
-              "title": "OPTIMUM",
-              "image": "optimum.png",
-              "url": "https://www.optimum-machines.com/",
+              "title": "4x4 Multi Trabalhos",
+              "image": "multi-trabalhos.png",
+              "url": "http://www.4x4multitrabalhos.com/",
+            },
+            {
+              "title": "Robbialac",
+              "image": "robbialac.png",
+              "url": "http://www.tintasrobbialac.pt/institucional.aspx",
+            },
+            {
+              "title": "RAPIDTOOL",
+              "image": "rapidtool.png",
+              "url": "http://www.rapidtool.pt/pt/",
+            },
+            {
+              "title": "GoodFellow",
+              "image": "goodfellow.png",
+              "url": "http://www.goodfellow.com/",
+            },
+            {
+              "title": "Primetec",
+              "image": "primetec.png",
+              "url": "http://primetec.pt/",
+            },
+            {
+              "title": "FARMI",
+              "image": "farmi.png",
+              "url": "http://www.farmi.pt/",
             },
             {
               "title": "Emmad",
@@ -1297,6 +1398,46 @@ var locales = {
               "image": "airtech.png",
               "url": "http://www.airtechintl.com/",
             },
+            {
+              "title": "EIT-InnoEnergy",
+              "image": "eit-innoenergy.png",
+              "url": "http://www.innoenergy.com/",
+            },
+            {
+              "title": "RTC",
+              "image": "rtc.png",
+              "url": "http://www.rtc-tec.com/",
+            },
+            {
+              "title": "Meusburguer",
+              "image": "meusburger.png",
+              "url": "https://www.meusburger.com/",
+            },
+            {
+              "title": "MELASTA",
+              "image": "melasta.png",
+              "url": "http://www.melasta.com/",
+            },
+            {
+              "title": "Stratasys",
+              "image": "stratasys.png",
+              "url": "http://www.stratasys.com/pt-br",
+            },
+            {
+              "title": "Altair",
+              "image": "altair.png",
+              "url": "https://www.altair.com/",
+            },
+            {
+              "title": "Bos suspension",
+              "image": "bos-suspension.png",
+              "url": "http://www.bos-suspension.com/",
+            },
+            {
+              "title": "Filkemp",
+              "image": "filkemp.png",
+              "url": "http://www.filkemp.com/pt-pt",
+            },
           ],
         },
         {
@@ -1304,89 +1445,14 @@ var locales = {
           "class": "bronze",
           "sponsors": [
             {
-              "title": "Duroplast-Chemie",
-              "image": "duroplastchemie.png",
-              "url": "https://www.duroplast.com/en/duroplast.html",
-            },
-            {
-              "title": "CHOMARAT",
-              "image": "chomarat.png",
-              "url": "http://chomarat.com/en/",
-            },
-            {
-              "title": "BBE",
-              "image": "bbe.png",
-              "url": "http://bbe.pt/pt/",
-            },
-            {
-              "title": "RAPIDTOOL",
-              "image": "rapidtool.png",
-              "url": "http://www.rapidtool.pt/pt/",
-            },
-            {
-              "title": "AMK",
-              "image": "amk.png",
-              "url": "https://amk-group.com/en",
-            },
-            {
-              "title": "bluecaPe",
-              "image": "bluecape.png",
-              "url": "http://joomla.bluecape.com.pt/",
-            },
-            {
-              "title": "Lenord+Bauer",
-              "image": "lenord+bauer.png",
-              "url": "https://www.lenord.com/",
-            },
-            {
-              "title": "Methode",
-              "image": "methode.png",
-              "url": "http://www.methode.com/",
-            },
-            {
-              "title": "GoodFellow",
-              "image": "goodfellow.png",
-              "url": "http://www.goodfellow.com/",
-            },
-            {
-              "title": "INDASA",
-              "image": "indasa.png",
-              "url": "https://www.indasa-abrasives.com/pt/pt/",
-            },
-            {
-              "title": "EID",
-              "image": "eid.png",
-              "url": "http://www.eid.pt/",
-            },
-            {
               "title": "IPG",
               "image": "ipg.png",
               "url": "https://ipg-automotive.com/",
             },
             {
-              "title": "OCOOL",
-              "image": "ocool.png",
-              "url": "https://www.alphacool.com/",
-            },
-            {
-              "title": "CD-adapco",
-              "image": "cd-adapco.png",
-              "url": "https://mdx.plm.automation.siemens.com/",
-            },
-            {
-              "title": "Coroplast",
-              "image": "coroplast.png",
-              "url": "https://www.coroplast.de/en/",
-            },
-            {
-              "title": "GECO",
-              "image": "geco.png",
-              "url": "https://geco-moldes.pt/",
-            },
-            {
-              "title": "Igus",
-              "image": "igus.png",
-              "url": "https://www.igus.pt/",
+              "title": "Duroplast-Chemie",
+              "image": "duroplastchemie.png",
+              "url": "https://www.duroplast.com/en/duroplast.html",
             },
             {
               "title": "3M",
@@ -1394,19 +1460,79 @@ var locales = {
               "url": "https://www.3m.com.pt/3M/pt_PT/fabricacao-pt/",
             },
             {
+              "title": "INDASA",
+              "image": "indasa.png",
+              "url": "https://www.indasa-abrasives.com/pt/pt/",
+            },
+            {
               "title": "Sika",
               "image": "sika.png",
               "url": "https://prt.sika.com/",
             },
             {
-              "title": "Laser Tig",
-              "image": "laser-tig.png",
-              "url": "http://www.lasertig.com/",
+              "title": "Igus",
+              "image": "igus.png",
+              "url": "https://www.igus.pt/",
             },
             {
-              "title": "EIT-InnoEnergy",
-              "image": "eit-innoenergy.png",
-              "url": "http://www.innoenergy.com/",
+              "title": "AMK",
+              "image": "amk.png",
+              "url": "https://amk-group.com/en",
+            },
+            {
+              "title": "Methode",
+              "image": "methode.png",
+              "url": "http://www.methode.com/",
+            },
+            {
+              "title": "EID",
+              "image": "eid.png",
+              "url": "http://www.eid.pt/",
+            },
+            {
+              "title": "Mouser",
+              "image": "mouser.png",
+              "url": "https://pt.mouser.com/",
+            },
+            {
+              "title": "Schroth racing",
+              "image": "schroth-racing.png",
+              "url": "https://www.schrothracing.com/",
+            },
+            {
+              "title": "OCOOL",
+              "image": "ocool.png",
+              "url": "https://www.alphacool.com/",
+            },
+            {
+              "title": "Rohde & Schwartz",
+              "image": "rohde-and-schwartz.png",
+              "url": "https://www.rohde-schwarz.com/pt/",
+            },
+            {
+              "title": "FriendLaser",
+              "image": "friendLaser.png",
+              "url": "http://www.friendlaser.pt/",
+            },
+            {
+              "title": "ST Sensor Technology",
+              "image": "st.png",
+              "url": "https://www.sensors.co.uk/",
+            },
+            {
+              "title": "Traco Power",
+              "image": "traco-power.png",
+              "url": "https://www.tracopower.com/",
+            },
+            {
+              "title": "Böllhoff",
+              "image": "bollhoff.png",
+              "url": "https://www.boellhoff.com/pt-pt/index.php",
+            },
+            {
+              "title": "KTR",
+              "image": "ktr.png",
+              "url": "https://www.ktr.com/us/",
             },
           ]
         },
@@ -1420,29 +1546,9 @@ var locales = {
               "url": "https://www.sportgraphics.com/",
             },
             {
-              "title": "Calspan",
-              "image": "calspan.png",
-              "url": "https://www.calspan.com/",
-            },
-            {
-              "title": "Easycomposites",
-              "image": "easycomposites.png",
-              "url": "http://www.easycomposites.co.uk/",
-            },
-            {
               "title": "BENDER",
               "image": "bender.png",
               "url": "https://www.bender.org/",
-            },
-            {
-              "title": "Radiadores Cavaleiro",
-              "image": "radiadores-cavaleiro.png",
-              "url": "http://radiadorescavaleiro.pt/",
-            },
-            {
-              "title": "KIP",
-              "image": "kip.png",
-              "url": "http://www.kip.pt/",
             },
             {
               "title": "REBELCO",
@@ -1450,9 +1556,54 @@ var locales = {
               "url": "http://www.rebelco.pt/",
             },
             {
+              "title": "Radiadores Cavaleiro",
+              "image": "radiadores-cavaleiro.png",
+              "url": "http://radiadorescavaleiro.pt/",
+            },
+            {
+              "title": "Araújo & Silva",
+              "image": "araujo-e-silva.png",
+              "url": "http://www.araujosilva.pt/",
+            },
+            {
+              "title": "KIP",
+              "image": "kip.png",
+              "url": "http://www.kip.pt/index.php?lang=pt",
+            },
+            {
               "title": "GGS Global Graphic Solutions",
               "image": "ggs.png",
               "url": "http://www.ggs.com.pt/",
+            },
+            {
+              "title": "cria TOPO",
+              "image": "cria-topo.png",
+              "url": "https://criatopo.com/",
+            },
+            {
+              "title": "PartsBox",
+              "image": "partsbox.png",
+              "url": "https://partsbox.io/",
+            },
+            {
+              "title": "Altium",
+              "image": "altium.png",
+              "url": "https://www.altium.com/",
+            },
+            {
+              "title": "IDEC",
+              "image": "idec.png",
+              "url": "http://www.idec.com/",
+            },
+            {
+              "title": "Trelleborg",
+              "image": "trelleborg.png",
+              "url": "http://www.trelleborg.com/en",
+            },
+            {
+              "title": "Alucore",
+              "image": "alucore.png",
+              "url": "https://www.alucobond.com/alucore-downloads.html?&L=6",
             },
           ]
         },
@@ -1476,11 +1627,6 @@ var locales = {
               "url": "https://www.iefp.pt/",
             },
             {
-              "title": "Viver Olivais",
-              "image": "viver-olivais.png",
-              "url": "http://www.jf-olivais.pt/",
-            },
-            {
               "title": "Caixa Geral de Depósitos",
               "image": "caixa.png",
               "url": "https://www.cgd.pt/",
@@ -1489,6 +1635,11 @@ var locales = {
               "title": "BPI",
               "image": "bpi.png",
               "url": "https://www.bancobpi.pt",
+            },
+            {
+              "title": "Santander",
+              "image": "santander.png",
+              "url": "https://www.santandertotta.pt/pt_PT/Particulares.html",
             },
           ]
         },
