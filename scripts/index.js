@@ -106,6 +106,10 @@ function updatePage() {
     p.parentElement.classList.add(className);
 
     p.classList.add('open');
+
+    if(p.id == 'aboutPanelRight' || p.id == 'aboutPanelBottom') {
+      showFSPieChart();
+    }
   };
 };
 
@@ -117,6 +121,49 @@ function toggleMobileMenu() {
 function openLink(link) {
   window.open(link, '_blank');
 };
+
+function showFSPieChart() {
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable(locales[lang].about.formulaStudent.chart );
+
+    var options = {
+      legend: 'none',
+      pieSliceText: 'label',
+      slices: {
+        0: { color: 'blue' },
+        1: { color: 'blue' },
+        2: { color: 'blue' },
+        3: { color: 'red' },
+        4: { color: 'red' },
+        5: { color: 'red' },
+        6: { color: 'red' },
+        7: { color: 'red' },
+      },
+      backgroundColor: '#f4fcff',
+      chartArea: {
+        width:'100%',
+        height:'95%'
+      }
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+    chart.draw(data, options);
+
+    google.visualization.events.addListener(chart, 'onmouseover', showCategoryInfo);
+    google.visualization.events.addListener(chart, 'onmouseout', hideCategoryInfo);
+  }
+}
+
+function showCategoryInfo(id) {
+  document.getElementById('formulaStudentInfo').innerHTML = categoryInfoPanel(id);
+}
+
+function hideCategoryInfo() {
+  document.getElementById('formulaStudentInfo').innerHTML = formulaStudentInfoPanel();
+}
 
 function showCarDetails(carIndex) {
   document.getElementById('carsPanelRight').innerHTML = carsPanelRight(carIndex);

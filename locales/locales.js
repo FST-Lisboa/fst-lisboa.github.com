@@ -79,6 +79,44 @@ var locales = {
           itself. Summarizing, one team could punctuate 1000 points in maximum, if reaches
           the first place in all events.
         `,
+        "chart": [
+          ['Competition', "Value (in points)"],
+          ['Presentation', 75],
+          ['Engineering Design', 150],
+          ['Cost Analysis', 100],
+          ['Acceleration', 100],
+          ['Skid-Pad', 75],
+          ['Autocross', 125],
+          ['Efficiency', 100],
+          ['Endurance', 275],
+        ],
+        "categories": {
+          "staticEvents": {
+            "title": "Statics Events",
+            "text": `
+              <b>Presentation</b> (75 points) – simulates the sale of the prototype for the public,
+              in general; <br>
+              <b>Engineering Design</b> (150) – evaluates the car design not only in project level,
+              but also in production and decision making; <br>
+              <b>Cost Analysis</b> (100) – evaluate the real costs of the prototype production,
+              searching for the balance between the performance and them;
+            `
+          },
+          "dynamicEvents": {
+            "title": "Dynamic Events",
+            "text": `
+              <b>Acceleration</b> (100) – tests the capacity of longitudinal acceleration of the car
+              throughout a straight of 75 meters; <br>
+              <b>Skid-Pad</b> (75) – evaluates the lateral acceleration of the car, doing a course in
+              shape of 8, with or without wet pavement; <br>
+              <b>Autocross</b> (125) – evaluates the global dynamic capacities of the vehicle
+              through a circuit of 1km timed course; <br>
+              <b>Efficiency</b> (100) – evaluates the energy efficiency of the car; <br>
+              <b>Endurance</b> (275) – evaluates the autonomy and feasibility of the car, in a close
+              circuit of 22km, with pilots change; <br>
+            `
+          }
+        },
       }
     },
     "team": {
@@ -1088,6 +1126,43 @@ var locales = {
           uma equipa pode pontuar no máximo 1000 pontos, se alcançar o primeiro lugar em todas as
           provas.
         `,
+        "chart": [
+          ['Prova', "Valor (em pontos)"],
+          ['Presentation', 75],
+          ['Engineering Design', 150],
+          ['Cost Analysis', 100],
+          ['Acceleration', 100],
+          ['Skid-Pad', 75],
+          ['Autocross', 125],
+          ['Efficiency', 100],
+          ['Endurance', 275],
+        ],
+        "categories": {
+          "staticEvents": {
+            "title": "Eventos Estáticos",
+            "text": `
+              <b>Presentation</b> (75 points) – simula a venda do protótipo ao público em geral; <br>
+              <b>Engineering Design</b> (150) – avalia o design do carro não só ao nível de projeto,
+              como de produção e decisões tomadas; <br>
+              <b>Cost Analysis</b> (100) – avalia os custos reais de produção do protótipo,
+              procurando o equilíbrio entre a performance e os mesmos;
+            `
+          },
+          "dynamicEvents": {
+            "title": "Eventos Dinâmicos",
+            "text": `
+              <b>Acceleration</b> (100) – testa a capacidade de aceleração longitudinal do carro ao
+              longo de uma reta de 75 metros; <br>
+              <b>Skid-Pad</b> (75) – avalia a aceleração lateral do carro, ao fazer um percurso em
+              forma de oito, que pode ou não ter o pavimento molhado; <br>
+              <b>Autocross</b> (125) – avalia as capacidades dinâmicas globais do veículo através de
+              uma volta cronometrada num circuito de 1km; <br>
+              <b>Efficiency</b> (100) – avalia a eficiência energética do carro; <br>
+              <b>Endurance</b> (275) – avalia a autonomia e a fiabilidade do carro num circuito
+              fechado de 22km, com troca de pilotos; <br>
+            `
+          }
+        }
       }
     },
     "team": {
